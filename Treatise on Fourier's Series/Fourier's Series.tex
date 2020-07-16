@@ -34,7 +34,7 @@ Students taking this course are supposed to be familiar with so much of the infi
 
 The course was at first, as I have said, an exposition of Riemann's ``Partielle Differentialgleichungen.'' In extending it, I drew largely from Ferrer's ``Spherical Harmonics'' and Heine's ``Kugelfunctionen.'' and was somewhat indebted to Todhunter (``Functions of Laplace, Bessel, and Lam\'e''), Lord Rayleigh (``Theory of Sound''), and Forsyth (``Differential Equations''). \par 
 
-In preparing the notes for publication, I have been greatly aided by the criticisms and suggestions of my colleagues, Professor B. O. Peirce and Dr. Maxime B\^ocher, and the latter haskindly contributed the brief historical sketch contained in Chapter IX. \par 
+In preparing the notes for publication, I have been greatly aided by the criticisms and suggestions of my colleagues, Professor B. O. Peirce and Dr. Maxime B\^ocher, and the latter has kindly contributed the brief historical sketch contained in Chapter IX. \par 
 
 \begin{flushright}
     W. E. BYERLY.
@@ -79,7 +79,7 @@ In the simplest case, that of a slab of infinite extent with parallel plane face
 \end{equation}
 a form of considerable importance in the consideration of the problem of the cooling of the earth's crust. \par 
 
-In the problem of the permanent state of temperatures in a thin rectuangular plate, the equation \eqref{eq1} becomes 
+In the problem of the permanent state of temperatures in a thin rectangular plate, the equation \eqref{eq1} becomes 
 \begin{equation}
     D_x^2+D_y^2=0.
     \label{eq3}
@@ -114,13 +114,13 @@ In Acoustics in several problems we have the equation
 \end{equation}
 for instance, in considering the transverse or the longitudinal vibrations of a stretched elastic string, or the transmission of plane sound waves through the air. \par 
 
-If in considering the transverse vaibrations of a stretched string we take account of the resistance of the air \eqref{eq8} is replaced by 
+If in considering the transverse vibrations of a stretched string we take account of the resistance of the air \eqref{eq8} is replaced by 
 \begin{equation}
     \label{eq9}
     D_t^2y+2kD_ty=a^2D_x^2y. 
 \end{equation} \par 
 
-In dealing with the bvibrations of a stretched elastic membrane, we have the equation 
+In dealing with the vibrations of a stretched elastic membrane, we have the equation 
 \begin{equation}
     \label{eq10}
     D_t^2z=c^2(D_x^2z+D_y^2z),
@@ -177,7 +177,7 @@ Theoretically, every particular solution can be obtained from the general soluti
 
 \section{} If a problem requiring for its solution the solving of a differential equation is \textit{determinate}, there must always be given in addition to the differential equation enough outside conditions for the determination of all the arbitrary constants or arbitrary functions that enter into the general solution of the equation; and in dealing with such a problem, if the differential equation can be readily solved the natural method of procedure is to obtain its general solution, and then to determine the constants or functions by the aid of the given conditions. \par 
 
-It often happens, however, that the general solution of the differential equation in question cannot be obtained, and then, since hte problem \textit{if determinate} will be solved if by any means a solution of the equation can be found which will also satisfy the given outside consitions, it is worth while to try to get \textit{particular solutions} and so to combine them as to form a result which shall satisfy the given conditions without ceasing to satisfy the differential equation. \par 
+It often happens, however, that the general solution of the differential equation in question cannot be obtained, and then, since hte problem \textit{if determinate} will be solved if by any means a solution of the equation can be found which will also satisfy the given outside conditions, it is worth while to try to get \textit{particular solutions} and so to combine them as to form a result which shall satisfy the given conditions without ceasing to satisfy the differential equation. \par 
 
 \section{} A differential equation is \textit{linear} when it would be of the first degree if the dependent variable and all its derivatives were regarded as algebraic unknown quantities. If it is linear and contains no term which does not involve the dependent variable or one of its derivatives, it is said to be linear and \textit{homogeneous}. \par 
 
@@ -501,7 +501,7 @@ which as before reduces to
     rD_r^2(ru)+\frac{1}{\sin\theta}D_\theta(\sin\theta D_\theta u)=0
     \label{eq10.1}
 \end{equation}
-from the consideration that the temperatures must be independnt of $\phi$. \par 
+from the consideration that the temperatures must be independent of $\phi$. \par 
 
 Our equation of condition is 
 \begin{equation}
@@ -522,5 +522,20 @@ When $r=1$ \eqref{eq10.3} reduces to
     u=A_0P_0(\cos\theta)+A_1P_1(\cos\theta)+A_2P_2(\cos\theta)+A_3P_3(\cos\theta)+\dots 
     \label{eq10.4}
 \end{equation}
-If then we can develop our function of $\theta$ which enters into equation \eqref{eq10.2} in a series of the form \eqref{eq10.4}, we have only to take the coefficients of that series as the values of $A_0,\: A_1,\: A_2$, \&c., in \eqref{eq10.3}and we shall have our required solution. \par 
+If then we can develop our function of $\theta$ which enters into equation \eqref{eq10.2} in a series of the form \eqref{eq10.4}, we have only to take the coefficients of that series as the values of $A_0,\: A_1,\: A_2$, \&c., in \eqref{eq10.3} and we shall have our required solution. \par 
+
+\setcounter{equation}{0}
+\section{} As a last example we shall take the problem of the vibration of a stretched circular membrane fastened at the circumference, that is, of an ordinary drumhead. We shall suppose the membrane initially distorted into any given form which has circular symmetry\footnote{A function of the coordinates of a point has \textit{circular symmetry} about an axis when its value is not affected by rotating the point through any angle about the axis. A surface has circular symmetry about an axis when it is a surface of revolution about the axis.} about an axis through the centre perpendicular to the plane of the boundary, and then allowed to vibrate. \par 
+
+Here we have to solve 
+\begin{equation*}
+    D_t^2z=c^2\left(D_r^2z+\frac{1}{r}D_rz+\frac{1}{r^2}d_\phi^2z \right)
+    \tag{[XI] Art. 1}
+\end{equation*}
+subject to the conditions 
+\begin{align}
+    z&=f(r) & \text{when} \quad t=0 \label{eq11.1} \\ 
+    D_tz&=0 & \text{``}\quad t=0 \label{eq11.2} \\ 
+    z&=0 & \text{``} \quad r=a. \label{eq11.3} 
+\end{align} \par 
 \end{document}
