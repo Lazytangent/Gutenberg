@@ -1,0 +1,3 @@
+\contentsline {chapter}{Preface}{i}%
+\contentsline {chapter}{\numberline {1}Algebraic Notation}{1}%
+\contentsline {section}{\numberline {1.1}Exercises}{1}%

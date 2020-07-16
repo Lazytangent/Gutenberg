@@ -1,0 +1,9 @@
+\contentsline {chapter}{Preface}{iii}%
+\contentsline {chapter}{\numberline {1}Lecture I\\ The Determination of Solutions of Linear Partial Differential Equations by Boundary Conditions}{1}%
+\contentsline {chapter}{\numberline {2}Lecture II\\Contemporary Reseaches in Differential Equations, Integral Equations, and Integro-Differential Equations}{11}%
+\contentsline {section}{\numberline {2.1}Partial Differential Equations and Integral Equations}{11}%
+\contentsline {section}{\numberline {2.2}Coming Back to Ordinary Differential Equations}{15}%
+\contentsline {section}{\numberline {2.3}Application to Molecular Physics}{17}%
+\contentsline {section}{\numberline {2.4}Integro-Differential Equations}{19}%
+\contentsline {chapter}{\numberline {3}Lecture III\\Analysis Situs in Connection with\\Correpondences and Differential Equations}{22}%
+\contentsline {section}{\numberline {3.1}}{22}%

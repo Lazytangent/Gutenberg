@@ -1,0 +1,7 @@
+\contentsline {chapter}{Translator's Preface}{i}%
+\contentsline {chapter}{Preface by Dr.\nobreakspace {}Ludwig Nohl to the Letters of Ludwig van Beethoven}{ii}%
+\contentsline {part}{I\hspace {1em}Life's Joys and Sorrows\\1783 to 1815}{1}%
+\contentsline {chapter}{\numberline {1}To the Elector of Cologne,\\Frederick Maximilian}{2}%
+\contentsline {chapter}{\numberline {2}To Dr. Shade,--Augsburg}{3}%
+\contentsline {chapter}{\numberline {3}To the Elector Maximilian Francis}{5}%
+\contentsline {chapter}{\numberline {4}To Eleonore von Breuning,--Bonn}{6}%

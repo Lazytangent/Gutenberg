@@ -1,0 +1,53 @@
+PWD /Users/petermai/Downloads/Gutenberg/Beethoven, Ludwig van
+INPUT /usr/local/texlive/2020/texmf.cnf
+INPUT /usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /Users/petermai/Downloads/Gutenberg/Beethoven, Ludwig van/Beethoven's Letters.tex
+OUTPUT /Users/petermai/Downloads/Gutenberg/Beethoven, Ludwig van/Beethoven's Letters.log
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/book.cls
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/book.cls
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/bk12.clo
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/bk12.clo
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/preprint/fullpage.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/preprint/fullpage.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/setspace/setspace.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/setspace/setspace.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/titlesec/titlesec.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/titlesec/titlesec.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+INPUT /Users/petermai/Downloads/Gutenberg/Beethoven, Ludwig van/Beethoven's Letters.aux
+INPUT /Users/petermai/Downloads/Gutenberg/Beethoven, Ludwig van/Beethoven's Letters.aux
+OUTPUT /Users/petermai/Downloads/Gutenberg/Beethoven, Ludwig van/Beethoven's Letters.aux
+OUTPUT /Users/petermai/Downloads/Gutenberg/Beethoven, Ludwig van/Beethoven's Letters.pdf
+INPUT /usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
+INPUT /Users/petermai/Downloads/Gutenberg/Beethoven, Ludwig van/Beethoven's Letters.toc
+INPUT /Users/petermai/Downloads/Gutenberg/Beethoven, Ludwig van/Beethoven's Letters.toc
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+OUTPUT /Users/petermai/Downloads/Gutenberg/Beethoven, Ludwig van/Beethoven's Letters.toc
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT /Users/petermai/Downloads/Gutenberg/Beethoven, Ludwig van/Beethoven's Letters.aux
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
