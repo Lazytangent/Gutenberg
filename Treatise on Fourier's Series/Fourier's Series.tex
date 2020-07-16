@@ -533,9 +533,48 @@ Here we have to solve
     \tag{[XI] Art. 1}
 \end{equation*}
 subject to the conditions 
-\begin{align}
-    z&=f(r) & \text{when} \quad t=0 \label{eq11.1} \\ 
-    D_tz&=0 & \text{``}\quad t=0 \label{eq11.2} \\ 
-    z&=0 & \text{``} \quad r=a. \label{eq11.3} 
-\end{align} \par 
+\begin{eqnarray}
+    z=f(r) & \text{when} & t=0 \label{eq11.1} \\ 
+    D_tz=0 & \text{``} & t=0 \label{eq11.2} \\ 
+    z=0 & \text{``} & r=a. \label{eq11.3} 
+\end{eqnarray} \par 
+
+From the symmetry of the supposed initial distortion $z$ must be independent of $\phi$, therefore [XI] reduces to 
+\begin{equation}
+    D_t^2z=c^2\left(D_r^2z+\frac{1}{r}D_rz\right) \label{eq11.4}
+\end{equation}
+and this is the equation for which we wish to find a particular solution. \par 
+
+We shall employ a device not unlike that used in Art. 9. \par 
+
+Assume\footnote{See note on page \pageref{note2}} $z=R.T$ where $R$ is a function of $r$ alone and $T$ is a function of $t$ alone. Substitute this value of $z$ in \eqref{eq11.4} and we get 
+\begin{equation*}
+    RD_t^2T=c^2T\left(D_r^2R+\frac{1}{r}D_rR\right)
+\end{equation*}
+or 
+\begin{equation*}
+    \frac{1}{c^2T}\frac{d^2T}{dt^2}=\frac{1}{R}\left(\frac{d^2R}{dr^2}+\frac{1}{r}\frac{dR}{dr}\right). \label{eq11.5}
+\end{equation*}
+The second member of \eqref{eq11.5} does not involve $t$, therefore its equal the first member must be independent of $t$. The first member of \eqref{eq11.5} does not involve $r$, and consequently since it contains neither $t$ not $r$, it must be constant. Let it equal $-\mu^2$, where $\mu$ of course is an undetermined constant. \par 
+
+Then \eqref{eq11.5} breaks up into the two differential equations 
+\begin{equation}
+    \frac{d^2T}{dt^2}+\mu^2c^2T=0 \label{eq11.6}
+\end{equation}
+\begin{equation}
+    \frac{d^2R}{dr^2}+\frac{1}{r}\frac{dR}{dr}+\mu^2R=0 \label{eq11.7}
+\end{equation}
+\eqref{eq11.6} can be solved by familiar methods, and we get $t=\cos\mu ct$ and $t=\sin\mu ct$ as simple particular solutions (v. Int. Cal. p. 319, \S\, 21). \par 
+
+To solve \eqref{eq11.7} is not so easy. We shall first simplify it by a change of independent variable. Let $r=\frac{x}{\mu}$. \eqref{eq11.7} becomes 
+\begin{equation}
+    \frac{d^2R}{dx^2}+\frac{1}{x}\frac{dR}{dx}+R=0. \label{eq11.8}
+\end{equation} \par 
+
+Assume, as in Art. 9, that $R$ can be expressed in terms of whole powers of $x$. Let $R=\sum a_nx^n$ and substitute in \eqref{eq11.8}. We get 
+\begin{equation*}
+    \sum[n(n-1)a_nx^{n-2}+na_nx^{n-2}+a_nx^n]=0,
+\end{equation*}
+an equation which must be true no matter what the value of $x$. The coefficient of any given power of $x$, as $x^{k-2}$, must, then, vanish, and 
+
 \end{document}
