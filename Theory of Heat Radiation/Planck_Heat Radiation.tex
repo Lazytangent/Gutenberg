@@ -1,0 +1,569 @@
+\documentclass[12pt,oneside]{book}
+
+\usepackage{setspace}
+\usepackage{mathtools,amssymb,amsthm}
+\usepackage{fancyhdr,parskip,titlesec,siunitx,chngcntr}
+\usepackage[margin=1in]{geometry}
+\usepackage{tikz}
+
+\setlength{\parskip}{12pt}
+\setlength{\parindent}{0pt}
+\titleformat{\chapter}[display]{\LARGE\bfseries}{Chapter \thechapter}{0pt}{\Large\uppercase}
+\titleformat{\part}[block]{\Huge\bfseries}{Part \thepart.\\}{0pt}{\LARGE\uppercase}
+\counterwithout{equation}{chapter}
+
+
+
+\begin{document}
+    
+\frontmatter
+
+The Project Gutenberg EBook of The Theory of Heat Radiation, by Max Planck \par 
+
+This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project
+Gutenberg License included with this eBook or online at www.gutenberg.org \par 
+
+\pagebreak
+
+Produced by Andrew D. Hwang, Brenda Lewis and the Online Distributed Proofreading Team at http://www.pgdp.net (this file was produced from images generously made available
+by the Internet Archive/American Libraries.) \par 
+
+\vfill 
+
+\begin{center}
+    Transcriber's Note
+\end{center}
+Minor typographical corrections and presentational changes have been made without comment. All changes are detailed in the \LaTeX\ source fil, which may be downloaded from 
+\begin{center}
+    www.gutenberg.org/ebooks/40030. \par 
+\end{center}
+This PDF file is optimized for screen viewing, but may easily be recompiled for printing. Please consult the preabmle of the \LaTeX\ source file for instructions. \par 
+\begin{titlepage}
+    \centering
+    \vspace*{6cm}
+    {\Huge The Theory of Heat Radiation \par}
+    \vspace{12pt}
+    \noindent\rule{7cm}{0.4pt} \par 
+    \vspace{12pt}
+    {\huge Planck and Masius} \par 
+\end{titlepage}
+
+%\begin{titlepage}
+%    \centering
+%    {\Huge The Theory \par}
+%    {\huge of \par}
+%    {\Huge Heat Radiation \par}
+%    \vspace{2cm}
+    
+%\end{titlepage}
+
+\chapter{Translator's Preface}
+The present volume is a translation of the second edition of Professor \textit{Planck's} \textsc{Waermestrahlung} (1913). The profoundly original ideas introduced by \textit{Planck} in the endeavor to reconcile the electromagnetic theory of radiation with experimental facts have proven to be of the greatest importance in many parts of physics. Probably no single book since the appearance of \textit{Clerk Maxwell's} \textsc{Electricity and Magnetism} has had a deeper influence on the development of physical theories. The great majority of English-speaking physicists are, of course, able to read the work in the language in which it was written, but I believe that many will welcome the opportunity offered by a translation to study the ideas set forth by \textit{Planck} without the difficulties that frequently arise in attempting to follow a new and somewhat difficult line of reasoning in a foreign language. \par 
+
+Recent developments of physical theories have placed the quantum of action in the foreground of interest. Questions regarding the bearing of the quantum theory on the law of equipartition of energy, its application to the theory of specific heats and to photoelectric effectrs, attempts to form some concrete idea of the physical significance of the quantum, that is, to devise a ``model'' for it, have created within the last few years a large and ever increasing literature. Professor \textit{Planck} has, however, in this book confined himself exclusively to radiation phenomena and it has seemed to me probable that a brief r\'esum\'e of this literature might prove useful to the reader who wishes to pursue the subject further. I have, therefore, with Professor \textit{Planck's} permission, given in an appendix a list of the most important papers on the subjects treated of in this book and others closely related to them. I have also added a short note on one or two derivations of formul\ae where the treatment in the book seemed too brief or to present some difficulties. \par 
+
+In preparing the translation I have been under obligation for advice and helpful suggestions to several friends and colleagues and especially to Professor A. W. Duff who has read the manuscript and the galley proof. \par 
+
+\begin{flushright}
+    \textsc{Morton Masius.}
+\end{flushright} \par 
+\textsc{Worcester, Mass.,} \par
+\textit{February}, 1914.
+
+\chapter{Preface to Second Edition}
+Recent advances in physical research have, on the whole, been favorable to the special theory outlined in this book, in particular to the hypothesis of an elementary quantity of action. My radiation formuyla especially has so far stood all tests satisfactorily, including even the refined systematic measurements which have been carried out in the Physikalisch-technische Reichsanstalt at Charlottenburg during the last year. Probably the most direct support for the fundamental idea of the hypothesis of quanta is supplied by the values of the elementary quanta of matter and electricity derived from it. When, twelve years ago, I made my first calculation of the value of the elementary electric charge and found it to be $4.69\cdot 10^{-10}$ electrostatic units, the value of this quantity deduced by \textit{J. J. Thomson} from his ingenious experiments on the condensation of water vapor on gas ions, namely $6.5\cdot 10^{-10}$ was quite generally regarded as the most reliable value. This value exceeds the one given by me by 38 per cent. Meanwhile the experimental methods, improved in an admirable way by the labors of \textit{E. Rutherford, E. Regener, J. Perrin, R. A. Millikan, The Svedberg} and others, have without exception decided in favor of the value deduced from the theory of radiation which lies between the values of \textit{Perrin} and \textit{Millikan.} \par 
+
+To the two mutually independent confirmations mentioned, there has been added, as a further strong support of the hypothesis of quanta, the heat theorem which has been in the meantime announced by \textit{W. Nernst}, and which seems to point unmistakably to the fact that, not only the processes of radiation, but also the molecular processes take place in accordance with certain elementaryquanta of a definite finite magnitude. For the hypothesis of quanta as well as the heat theorem of \textit{Nernst} may be reduced to the sumple proposition that the theromdynamc probability (Sec. 120) of a physical state is a definite integral number, or, what amounts to the same thing, that the entropy of a state has a quite definite, positive value, which, as a minimum, becomes zero, while in contrast therewith the entropy may, according to the classical thermodynamics, decrease without limit to minus infinity. For the present, I would condier this proposition as the very quintessence of the hypothesis of quanta. \par 
+
+In spite of the satisfactory agreement of the results mentioned with one another as well as with experiment, the ideas from which they originated have met with wide interest but, so far as I am able to jedge, with little general acceptance, the reason probably being that the hypothesis of quanta has not as yet been sastisfactorily completed. While many physicists, through conservatism, reject the ideas developed by me, or, at any rate, maintain an expectant attitude, a few authors have attacked them for the opposite reason, namely, as being inadequate, and have felt compelled to supplement them by assumptions of a still more radical nature, for example, by the assumption that any radiant energy whatever, even though it travel freely in a vacuum, consists of indivisible quanta or cells. Since nothing probably is a greater drawback to the successful development of a new hypothesis than overstepping its boundaries, I have always stood for making as close a connection between the hypothesis of quanta and the classical dynamics as possible, and for not stepping outside the boundaries of the latter until the experimental facts leave no other course open. I have attempted to keep to this standpoint in the revision of this treatise necessary for a new edition. \par 
+
+The main fault of the original treatment was that it began with the classical electrodynamical laws of emission and absortption, whereas later on it became evident that, in order to meet the demand of experimental measurements, the assumption of finite energy elements must by introduced, an assumption which is in direct contradiction to the fundamental ideas of classical electrodynamics. It is true that this inconsistency is greatly reduced by the fact that, in reality, only mean values of energy are taken from classical electrodynamics, while, for the statistical calculation, the real values are used; nevertheless the treatment must, on the whole, have left the reader with the unsatisfactory feeling that it was not clearly to be seen, which of the assumptions made in the beginning could, and which could not, be finally retained. \par 
+
+In contrast thereto I have now attempted to treat the subjet from the very outset in such a way that none of the laws stated need, later on, be restricted or modified. This presents the advantagethat the theory, so far as it is treated here, shows no contradiction in itself, though certainly I do not mean that it does nort seem to call for improvements in many respects, as regards both its internal structure and its external form. To treat of the numerous applications, many of them very important, which the hypothesis of quanta has already found in other parts of physics, I have not regarded as part of my task, still less to discuss all differing opinions. \par 
+
+Thus, while the new edition of this book may not claim to bring the theory of heat radiation to a conclusion that is satisfoctory in all respects, this deficiency will not be of decisive importance in judging the theory. For any one who would make his attitude concerning the hypothesis of quanta depend on whether the significance of the quantum of action for the elementary physical processes is made clear in every respect or may be demonstrated by some simple dynamical model, misunderstand, I believe, the character and the meaning of the hypothesis of quanta. It is impossible to express a really new principle in terms of a model following old laws. And, as regards the final formulation of the hypothesis, we should not forget that, from the classical point of view, the physics of the atom really has always remained a very obscure, inaccessible region, into which the introduction of the elementary quantum of action promises to throw some light. \par 
+
+Hence it follows from the nature of the case it will require painstaking experimental and theoretical work for many years to come to make gradual advances in the new field. Any one who, at present, devotes his efforts to the hypothesis of quanta, must, for the time being, be content with the knowledge that the fruits of the labor spent will probably be gathered by a future generation. \par 
+
+\begin{flushright}
+    \textsc{The Author.}
+\end{flushright} \par 
+\textsc{Berlin,} \\
+\textit{November,} 1912
+
+\chapter{Preface to the First Edition}
+In this book that main ocntents of the lectures which I gave at the University of Berlin during the winter semester 1906-07 are presented. My original intention was merely to put together in a connected account the results of my own investigations, begun ten years ago, on the theory of heat radiation; it soon became evident, however, that it was desirable to include also the foundation of this theory in the treatment, starting with Kirchhoff's Law on emitting and absorbing power; and so I attempted to write a treatise which should also be capable of serving as an introduction to the study of the entire theory of radiant heat on a consistent thermodynamic basis. Accordingly the treatment starts from the simple known experimental laws of optics and advances, by gradual extension and by the addition of the results of electrodynamics and thermodynamics, to the problems of the spectral distribution of energy and of irreversibility. In doing this I have deviated frequently from the customary methods of treatment, wherever the matter presented or considerations regarding the form of presentation seemed to call for it, especially in deriving Kirchhoff's laws, in calculating Maxwell's radiation pressure, in deriving Wien's displacement law, and in generalizing it for radiations of any spectral distribution of energy whatever. \par 
+
+I have at the proper place introduced the results of my own investigations into the treatment. A list of these has been added at the end of the book to facilitate comparison and examination as regards special details. \par 
+
+I wish, however, to emphasize here what has been stated more fully in the last paragraph of this book, namely, that the theory thus developed does not by any means claim to be perfect or complete, although I believe that it points out a possible way of accounting for the processes of radiant energy from the same point of view as for the processes of molecular motion. \par 
+\tableofcontents
+\mainmatter
+\part{Fundamental Facts and Definitions}
+\chapter{General Introduction}
+\textbf{1.} Heat may be propagated in a stationary medium in two entirely deifferent ways, namely, by conduction and by radiation. Conduction of heat depends on the temperature of the medium in which it takes place, or more strictly speaking, on the non-uniform distribution of the temperature in space, as measured by the temperature gradiant. In a region where the temperature of the medium is the same at all points, there is no trace of heat conduction. \par 
+
+Radiation of heat, however, is in itself entirely independent of the temperature of the medium through which it passes. It is possible, for example, to concentrate the solar rays at a focus by passing them through a converging lens of ice, the latter remaining at a constant temperature of \SI{0}{\degree}, and so to ignite an inflammable body. Generally speaking, radiation is a far more complicated phenomenon than conduction of heat. The reason for this is that the state of the radiation at a given instant and at a given point of the medium cannot be represented, as can the flow of heat by conduction, by a single vector (that is, a single directed quantity). All heat rays which at a given instant pass through the same point of the medium are perfectly independent of one another, and in order to specify completely the state of the radiation the intensity of radiation must be known in all the directions, infinite in number, which pass through the point in question; for this purpose two opposite directions must be considered as distinct, because the radiation in one of them is quite independent of the radiation in the other. \par 
+
+\textbf{2.} Putting aside for the present any special theory of heat radiation, we shall state for our further use a law supported by a large number of experimental facts. This law is that, so far as their physical properties are concerned, heat rays are identical with light rays of the same wave length. The term ``heat radiation,'' then, will be applied to all physical phenomena of the same nature as light rays. Every light ray is simultaneously a heat ray. We shall also, for the sake of brevity, occasionally speak of the ``color'' of a heat ray in order to denot its wave length or period. As a further consequence of this law we shall apply to the radiation of heat all the well-known laws of experimental optics, especially those of reflection and refraction, as well as those relating to the propagation of light. Only the phenomena of diffraction, so far at least as they take place in space of considerable dimensions, we shall exclude on account of their rather complicated nature. We are therefore obliged to introduce right at the start a certain restriction with respect to the size of the parts of space to be considered. Throughout the following discussion it will be assumed that the linear dimensions of all parts of space considered, as well as the radii of curvature of all surfaces under consideration, are large compared with the wave lengths of rays considered. With this assumption we may, without appreciable error, entirely neglect the influence of diffraction caused by the bounding surfaces, and everywhere apply the ordinary laws of reflection and refraction of light. To sum up: We distinguish once for all between two kinds of lengths of entirely different orders of magnitude---dimensions of bodies and wave lengths. Moreover, even the differentials of the former, \textit{i.e.}, elements of length, area and volume, will be regarded as large compared with the corresponding powers of wave lengths. The greater, therefore, the wave length of the rays we wish to consider, the larger must be the parts of space considered. But, inasmuch as there is no other restriction on our choice of size of the parts of space to be considered, this assumption will not give rise to any particular difficulty. \par 
+
+\textbf{3.} Even more essential for the whole theory of heat radiation than the distinction between large and small lengths, is the distinction between long and short intervals of time. For the definition of intensity of heat ray, as being the energy transmitted by the ray per unit time, implies the assumption that the unit of time chosen is large compared with the period of vibration corresponding to the color of the ray. If this were not so, obviously the value of the intensity of the radiation would, in general, depend upon the particular phase of vibration at which the measurement of the energy of the ray was begun, and the intensity of a ray of constant period and amplitude would not be independent of the initial phase, unless by chance the unit of time were an integral multiple of the period. To avoid this difficulty, we are obliged to postulate quite generally that the unit of time, or rather that element of time used in defining the intensity, even if it appear in the form of a differential, must be large compared with the period of all colors contained in the ray in question. \par 
+
+The last statement leads to an important conclusion as to radiation of variable intensity. If, using an acoustic analogy, we speak of ``beats'' in the case of intensities undergoing periodic changes, the ``unit'' of time required for a definition of the instantaneous intensity of radiation must necessarily be small compared with the period of the beats. Now, since from the previous statement our unit must be large compared with a period of vibration, it follows that the period of the beats must be large compared with that of a vibration. Without this restriction it would be impossible to distinguish properly between ``beats'' and simple ``vibrations.'' Similarly, in the general case of an arbitrarily variable intensity of radiation, the vibrations must take place very rapidly as compared with the relatively slower changes in intensity. These statements imply, of course, a certain far-reaching restriction as to the generality of the radiation phenomena to be considered. \par 
+
+It might be added that a very similar and equally essential restriction is made in the kinetic theory of gases of dividing the motions of a chemically simple gas into two classes: visible, coarse. or molar, and invisible, fine, or molecular. For, since the velocity of a single molecule is a perfectly unambiguous quantity, this distinction cannot be drawn unless the assumption be made that the velocity-components of the molecules contained in sufficiently small volumes have certain mean values, independent of the size of the volumes. This in general need not by any means be the case. If such a mean value, including the value zero, does not exist, the distinction between motion of the gas as a whole and random undirected heat motion cannot be made. \par 
+
+Turning now to the investigation of the laws in accordance with which the phenomena of radiation take place in a medium supposed to be at rest, the problem may be approached in two ways: We must either select a certain point in space and investigate the different rays passing through this one point as time goes on, or we must select one distinct ray and inquire into its history, that is, into the way in which it was created, propagated, and finally destroyed. For the following discussion, it will be advisable to start with the second method of treatment and to consider first the three processes just mentioned. \par 
+
+\textbf{4. Emission.}---The creation of a heat ray is generally denoted by the word emission. According to the principle of the conservation of energy, emission always takes place at the expense of other forms of energy (heat,\footnote{Here as in the following the German ``K\"orperw\"arme'' will be rendered simply as ``heat.'' (Tr.)} chemical or electric energy, etc.) and hence it follows that only material particles, not geometrical volumes or surfaces, can emit heat rays. It is true that for the sake of brevity we frequently speak of the surface of a body as radiating heat to the surroundings, but this form of expression does not imply that the surface actually emits heat rays. Strictly speaking, the surface of a body never emits rays, but rather it allows part of the rays coming from the interior to pass through. The other part is reflected inward and according as the fraction transmitted is larger or smaller the surface seems to emit more or less intense radiations. \par 
+
+We shall now consider the interior of an emitting substance assumed to be physically homogeneous, and in it we shall select any volume-element $d\tau$ of not too small size. Then the energy which is emitted by radiation in unit time by all particles in this volume-element will be proportional to $d\tau$. Should we attempt a closer analysis of the process of emission and resolve it into its elements, we should undoubtedly meet very complicated conditions, for then it would be no longer be admissible to think of the substance as homogeneous, and we would have to allow for the atomic constitution. Hence the finite quantity obtained by dividing the radiation emitted by a volume-element $d\tau$ by this element $d\tau$ is to be considered only as a certain mean value. Nevertheless, we shall as a rule be able to treat the pheomenon of emission as if all points of the volume-element $d\tau$ took part in the emission in a uniform manner, thereby greatly simplifying our calculation. Every point of $d\tau$ will then be the vertex of a pencil of rays diverging in all directions. Such a pencil coming from one single pooint of course does not represent a finite amount of energy, because a finite amount is emitted only by a finite though possibly small volume, not by a single point. \par 
+
+We shall next assume our substance to be isotropic. Hence the  radiation of the volume-element $d\tau$ is emitted uniformly in all directions of space. Draw a cone in an arvitrary direction, having any point of the radiating element as vertex, and describe around the vertex as center a sphere of unit radius. This sphere intersects the cone in what is known as the solid angle of the cone, and from the isotropy of the medium it follows that the radiation in any such conical element will be proportional to its solid angle. This holds for cones of any size. If we take the solid angle as infinitely small and of size $d\Omega$ we may speak of the radiation emitted in a certain direction, but always in the sense that for the emission of a finite amount of energy an infinite number of directions are necessary and these form a finite solid angle. \par 
+
+\textbf{5.} The distribution of energy in the radiation is in general quite arbitrary; that is, the different colors of a certain radiation may have quite different intensities. The color of a ray in experimental physics is usually denoted by its wave length, because this quantity is measured directly. For the theoretical treatment, however, it is usually preferable to use the frequency $\nu$ instead, since the characteristic of color is not so much the wave length, which changes from one medium to another, as the frequency, which remains unchanged in a light or heat ray passing through stationary media. We shall, therefore, hereafter denote a certain color by the corresponding value of $\nu$, and a certain interval of color by the limits of the interval $\nu$ and $\nu'$, where $\nu'>\nu$. The radiation lying in a certain interval of color divided by the magnitude $\nu'-\nu$ of the interval, we shall call the mean radiation in the interval $\nu$ to $\nu'$. We shall then assume that if, keeping $\nu$ constant, we take the interval $\nu'-\nu$ sufficiently small and denote it by $d\nu$ the value of the mean radiation approaches a definite limiting value, independent of the size of $d\nu$, and this we shall briefly call the ``radiation of frequency $\nu$.'' To produce a finite intensity of radiation, the frequency interval, though perhaps small, must also be finite. \par 
+
+We have finally to allow for the polarization of the emitted radiation. Since the medium was assumed to be isotropic the emitted rays are unpolarized. Hence every ray has just twice the intensity of one of its plane polarized componenets, which could, \textit{e.g.}, be obtained by passing the ray through a \textit{Nicol's} prism. \par 
+
+\textbf{6.} Summing up everything said so far, we may equate the total energy in a range of frequency from $\nu$ to $\nu+d\nu$ emitted in the time $dt$ in the direction of the conical element $d\Omega$ by a volume-element $d\tau$ to 
+\begin{equation}
+    dt\cdot d\tau\cdot d\Omega\cdot d\nu\cdot 2\epsilon_\nu.
+    \label{eq1}
+\end{equation}
+The finite quantity $\epsilon_\nu$ is called the coefficient of emission of the medium for the frequency $\nu$. It is a positive function of $\nu$ and refers to a plane polarized ray of definite color and direction. The total emission of the volume-element $d\tau$ may be obtained from this by integrating over all directions and all frequencies. Since $\epsilon_\nu$ is independent of the direction, and since the integral over all conical elements $d\Omega$ is $4\pi$, we get:
+\begin{equation}
+    dt\cdot d\tau\cdot 8\pi\int_0^\infty\epsilon_\nu d\nu.
+    \label{eq2}
+\end{equation} \par 
+
+\textbf{7.} The coefficient of emission $\epsilon$ depends, not only on the frequency $\nu$, but also on the condition of the emitting substance contained in the volume-element $d\tau$, and, generally speaking, in a very complicated way, according to the physical and chemical processes which take place in the elements of time and volume in question. But the empirical laaw that the emission of any volume-element depends entirely on what takes place inside of this element holds true in all cases (\textit{Prevost's} principle). A body $A$ at \SI{100}{\degreeCelsius} emits toward a body $B$ at \SI{0}{\degreeCelsius} exactly the same amount of radiation as toward an equally large and similarly situated body $B'$ at \SI{1000}{\degreeCelsius}. The fact that the body $A$ is cooled by $B$ and heated by $B'$ is due entirely to the fact that $B$ is a weaker, $B'$ a stronger emitter than $A$. \par 
+
+We shall now introduce the further simplifying assumption that the physical and chemical condition of the emitting substance depends on but a single variable, namely, on its absolute temperature $T$. A necessary consequence of this is that the coefficient of emission $\epsilon$ depends, apart from the frequence $\nu$ and the nature of the medium, only on the temperature $T$. The last statement excludes from our consideration a number a radiation phenomena, such as fluorescence, phosphorescence, electrical and chemical luminosity, to which \textit{E. Wiedemann} has given the common name ``phenomena of luminescence.'' We shall deal with pure ``temperature radiation'' exclusively. \par 
+
+A special case of temperature radiation is the case of the chemical nature of the emitting substance being invariable. In this case the emission takes place entirely at the expense of the heat of the body. Nevertheless, it is possible, according to what has been said, to have temperature radiation while chemical changes are taking place, provided the chemical condition is completely determined by the temperature. \par 
+
+\textbf{8. Propagation.}---The propagation of the radiation in a medium assumed to be homogeneous, isotropic, and at rest takes place in straight lines and with the same velocity in all directions, diffraction phenomena being entirely excluded. Yet, in general, each ray suffers during its propagation a certain weakening, because a certain fraction of its energy is continuously deviated from its original direction and scattered in all directions. This phenomenon of ``scattering,'' which means neither a creation nor a destruction of radiant energy but simple a change in distribution, takes place, generally speaking, in all media differing from an absolut vacuum, even in substances which are perfectly pur chemically.\footnote{See, \textit{e.g., Lobry de Bruyn} and \textit{L. K. Wolff}, Rec. des Trav. Chim. des Pays-Bas \textbf{23}, p. 155, 1904.} The cause of this is that nosubstance is homogeneous in the absolute sense of the word. The smallest elements of space always exhibit some discontinuities on account of their atomic structure. Small impurities, as, for instance, particles of dust, increase the influence of scattering without, however, appreciably affecting its general character. Hence, so-called ``turbid'' media, \textit{i.e.,} sych as contain foreign particles, may be quite properly regarded as optically homogeneous,\footnote{To restrict the word homogeneous to its absolute sense would mean that it could not be applied to any material substance.} provided only that the linear dimensions of the foreign particles as well as the distances of neighboring particles are sufficiently small compared with the wave lengths of the rays considered. As regards optical phenomena, then, there is no fundamental distinction between chemically pure substances and the turbid media just described. No space is optically void in the absolute sense except a vacuum. Hence a chemically pure substance may be spoken of as a vacuum made turbid by the presence of molecules. \par 
+
+A typical example of scattering is offered by the behavior of sunlight in the atmosphere. When, with a clear sky, the sun stands in the zenith, only about two-thirds of the direct radiation of the sun reaches the surface of the earth. The remainder is intercepted by the atmosphere, being partly absorbed and changed into heat of the air, partly, however, scattered and changed into diffuse skylight. This phenomenon is produced probably not so much by the particles suspended in the atmosphere as by the air molecules themselves. \par 
+
+Whether the scattering depends on reflection, on diffraction, or on a resonance effect on the molecules or particles is a point that we may leave entirely aside. We only take account of the fact that every ray on its path through any medium loses a certain fraction of its intensity. For a very small distance, $s$, this fraction is proportional to $s$, say
+\begin{equation}
+    \beta_\nu s
+    \label{eq3}
+\end{equation}
+where the positive quantity $\beta_\nu$ is independent of the intensity of radiation and is called the ``coefficient of scattering'' of the medium. Inasmuch as the medium is assumed to be isotropic, $\beta_\nu$ is also independent of the direction of propagation and polarization of the ray. It depends, however, as indicated by the subscript $\nu$, not only on the physical and chemical constitution of the body but also to a very marked degree on the frequency. For certain values of $\nu$, $\beta_\nu$ may be so large that the straight-line propagation of the rays is virtually destroyed. For other values of $\nu$, however, $\beta_\nu$ may become so small that the scattering can be entirely neglected. For generality we shall assume a mean value of $\beta_\nu$. In the cases of most importance $\beta_\nu$ increases quite appreciably as $\nu$ increases, \textit{i.e.,} the scattering is noticeably large for rays of shorter wave length;\footnote{\textit{Lord Rayleigh}, Phil. Mag., \textbf{47}, p. 379, 1899.} hence the blue color of diffuse skylight. \par 
+
+The scattered radiation energy is propagated from the place where the scattering occurs in a way similar to that in which the emitted energy is propagated from the place of emission, since it travels in all directions in space. I does not, however, have the same intensity in all directions, and moreover is polarized in some special directions, depending to a large extent on the direction of the original ray. We need not, however, enter into any further discussion of these questions. \par 
+
+\textbf{9.} While the phenomenon of scattering means a continuous modification in the interior of the medium, a discontinuous change in both the direction and the intensity of a ray occurs when it reaches the boundary of a medium and meets the surface of a second medium. The latter, like the former, will be assumed to be homogeneous and isotropic. In this case, the ray is in general partly reflected and partly transmitted. The reflection and refraction may be ``regular,'' there being a single reflected ray according to the simple law of reflection and a single transmitted ray, according to \textit{Snell's} law of refraction, or, they may be ``diffuse,'' which means that from the point of incidence on the surface the radiation spreads out into the two media with intensities that are different in different directions. We accordingly describe the surface of the second medium as ``smooth'' or ``rough'' respectively. Diffuse reflection occurring at a rough surface should be carefully distinguished from reflection at a smooth surface of a turbid medium. In both cases part of the incident ray goes back to the first medium as difuse radiation. But in the first case the scattering occurs on the surface, in the second in more or less think layers entirely inside the second medium. \par 
+
+\textbf{10.} When a smooth surface sompletely reflects all incidents rays, as is approximately the case with many metallic surfaces, it is termed ``reflecting.'' When a rough surface reflects all incident rays completely and uniformly in all directions, it is called ``white.'' The other extreme, namely, complete  transmission of all incident rays through the surface never occurs with smooth surfaces, at least if the two contiguous media are at all optically different. A rough surface having the property of completely transmitting the incident radiation is described as ``black.'' \par 
+
+In addition to ``black surfaces'' the term ``black body'' is also used. According to \textit{G. Kirchhoff}\footnote{\textit{G. Kirchhoff}, Pogg. Ann., \textbf{109}, p.275, 1860. Gesammelte Abhandlungen, J. A. Barth, Leipzig, 1882, p. 573. In defining a black body \textit{Kirchhoff} also assumes that the aborption of incident rays takes place in a layer ``infinitely thin.'' We do not include this in our definition.} it denotes a body which has the property of allowing all incident rays to enter without surface reflection and not allowing them to leave again. Hence it is seen that a black body must satisfy three independent conditions. First, the body must have a black surface in order to allow the incident rays to enter without reflection. Since, in general, the properties of a surface depend on both of the bodies which are in contact, this condition shows that the property of blackness as applied to a body depends not only the nature of the body but also on that of the contiguous medium. A body which is black relatively to air need not be so relatively to glass, and \textit{vice versa}. Second, the black body must have a certain minimum thickness depending on its absorbing power, in order to insure that the rays after passing into the body shall not be able to leave it again at a different point of the surface. The more absorbing a body is, the smaller the value of this minimum thickness, while in the case of bodies with vanishingly small absorbing power only a layer of infinite thickness may be regarded as black. Third, the black body must have a vanishingly small coefficient of scattering (Sec. 8). Otherwise the rays received by it would be partly scattered in the interior and might leave again through the surface.\footnote{For this point see especially \textit{A. Schuster}, Astrophysical Journal, \textbf{21}, p. 1, 1905, who has pointed out that an infinite layer of gas with a black surface need by no means be a black body.} \par 
+
+\textbf{11.} All the distinctions and definitions mentioned in the two preceding paragraphs refer to rays of one definite color only. It might very well happen that, \textit{e.g.}, a surface which is rough for a certain kind of rays must be regarded as smooth for a different kind of rays. It is readily seen that, in general, a surface shows decreasing degrees of roughness for increasing wave lengths. Now, since smooth non-reflecting surfaces do not exist (Sec. 10), it follows that all approximately black surfaces which may be realized in practice (lamp black, platinum black) show appreciable reflection for rays of sufficiently long wave lengths. \par 
+
+\textbf{12. Absorption.}---Heat rays are destroyed by ``absorption.'' According to the principle of the conservation of energy the energy of heat radiation is thereby changed into other forms of energy (heat, chemical energy). Thus only material particles can absorb heat rays, not elements of surfaces, although sometimes for the sake of brevity the expression absorbing surfaces is used. \par 
+
+Whenever absorption takes place, the heat ray passing through the medium under consideration is weakened by a certain fraction of its intensity for every element of path traversed. For a sufficiently small distance $s$ this fraction is proportional to $s$, and may be written
+\begin{equation}
+    \alpha_\nu s.
+    \label{eq4}
+\end{equation}
+Here $\alpha_\nu$ is known as the ``coefficient of absorption'' of the medium for a ray of frequency $\nu$. We assume this coefficient to be independent of the intensity; it will, however, depend in general in non-homogeneous and anisotropic media on the position of $s$ and on the direction of propagation and polarization of the ray (example: tourmaline). We shall, however, consider only homogeneous isotropic substances, and shall therefore suppose that $\alpha_\nu$ has the same value at all points and in all directions in the medium, and depends on nothing but the frequency $\nu$, the temperature $T$, and nature of the medium. \par 
+
+Whenever $\alpha_\nu$ does not differ from zero except for a limited range of the spectrum, the medium shows ``selective'' absorption. For those colors for which $\alpha_\nu=0$ and also the coefficient of scattering $\beta_\nu=0$ the medium is described as perfectly ``transparent'' or ``diathermanous.'' But the properties of selective absorption and of diathermancy may for a given medium vary widely with the temperature. In general we shall assume a mean value for $\alpha_\nu$. This implies that the absorption in a distance equal to a single wave length is very small, because the distance $s$, while small, contains many wave lengths (Sec. 2). \par 
+
+\textbf{13.} The foregoing considerations regarding the emision, the propagation, and the absorption of heat rays suffice for a mathematical treatment of the radiation phenomena. The calculation requires a knowledge of the value of the constants and the initial and boundary conditions, and yields a full account of the changes the radiation undergoes in a given time in one or more contiguous media of the kind stated, including the temperature changes caused by it. The actual calculation is usually very complicated. We shall, however, before entering upon the treatment of special cases discuss the general radiation phenomena from a different point of view, namely by fixing our attention not on a definite ray, but on a definite position in space. \par 
+
+\textbf{14.} Let $d\sigma$ be an arbitrarily chosen, infinitely small element of area in the interior of a medium through which radiation passes. At a given instant rays are passing through this element in many different directions. The energy radiated through it in an element of time $dt$ in a definite direction is proportional to the area $d\sigma$, the length of time $dt$, and to the cosine of the angle $\theta$ made by the normal of $d\sigma$ with the direction of the radiation. If we make $d\sigma$ sufficiently small, then, although this is only an approximation to the actual state of affairs, we can think of all points in $d\sigma$ as being affected by the radiation in the same way. Then the energy radiated through $d\sigma$ in a definite direction must be proportional to the solid angle in which $d\sigma$ intercepts that radiation and this solid angle is measured by $d\sigma \cos \theta$. It is readily seen than, when the direction of the element is varied relatively to the direction of the radiation, the energy radiated through it vanishes when 
+$$\theta=\frac{\pi}{2}.$$ \par 
+
+Now in general a pencil of rays is propagated from every point of the element $d\sigma$ in all directions, but with different intensities in different directions, and any two pencils emanting from two points of the element are identical save for differences of higher order. A single one of these pencils coming from a single point does not represent a finite quantity of energy, because a finite amount of energy is radiated only through a finite area. This holds also for the passage of rays through a so-called focus. For example, when sunlight passes through a converging lens and is concentrated in the focal plane of the lens, the solar rays do not converge to a single point, but each pencil of parallel rays forms a separate focus and all these foci together constitute a surface representing a small but finite image of the sun. A finite amount of energy does not pass through less than a finite portion of this surface. \par 
+
+\textbf{15.} Les us now consider quite generally the pencil, which is propagated from a point of the element $d\sigma$ as vertex in all directions of space and on both sides of $d\sigma$. A certain direction may be specified by the angle $\theta$ (between 0 and $\pi$), as already used, and by an azimuth $\phi$ (between 0 and $2\pi$). The intensity in this direction is the energy propagated in an infinitely thin cone limited by $\theta$ and $\theta+d\theta$ and $\phi$ and $\phi+d\phi$. The solid angle of this cone is 
+\begin{equation}
+    \label{eq5}
+    d\Omega=\sin\theta\cdot d\theta\cdot d\phi.
+\end{equation}
+Thus the energy radiated in time $dt$ through the element of area $d\sigma$ in the direction of the cone $d\Omega$ is:
+\begin{equation}
+    \label{eq6}
+    dt\ d\sigma \cos\theta\ d\Omega\ K=K\sin\theta\cos\theta\ d\theta\ d\phi\ d\sigma\ dt.
+\end{equation} \par 
+
+The finite quantity $K$ we shall term the ``specific intensity'' of the ``brightness,'' $d\Omega$ the ``solid angle'' of the pencil emanating from a point of the element, $d\sigma$ in the direction $(\theta,\phi)$. $K$ is a positive function of position, time, and the angles $\theta$ and $\phi$. In general the specific intensities of radiation in different diretions are entirely independent of one another. For example, on substituting $\pi - \theta$ for $\theta$ and $\pi + \phi$ for $\phi$ in the function $K$, we obtain the specific intensity of radiation in the diametrically opposite direction, a quantity which in general is quite different from the preceding one. \par 
+
+For the total radiation through the element of area $d\sigma$ toward one side, say the one on which $\theta$ is an acute angle, we get, by integrating with respect to $\phi$ from 0 to $2\pi$ and with repect to $\theta$ from 0 to $\frac{\pi}{2}$ 
+$$\int_0^{2\pi}d\phi\int_0^{\frac{\pi}{2}}d\theta K\sin\theta\cos\theta\ d\sigma dt.$$
+Should the radiation be uniform in all directions and hence $K$ be a constant, the total radiation on one side will be 
+\begin{equation}
+    \label{eq7}
+    \pi Kd\sigma dt.
+\end{equation} \par 
+
+\textbf{16.} In speaking of the radiation in a definite direction $(\theta,\phi)$ one should always keep in mind that the energy radiated in a cone is not finite unless the angle of the cone is finite. No finite radiation of light or heat takes place in one definite direction only, or expressing it differently, in nature there is no such thing as absolutely parallel light or an absolutely plane wave front. From a pencil of rays called ``parallel'' a finite amount of energy of radiation can only be obtained if the rays or wave normals of the pencil diverge so as to form a finite though perhaps exceedingly narrow cone. \par 
+
+\textbf{17.} The specific intensity $K$ of the whole energy radiated in a certain direction may be further divided into the intensities of the separate rays belonging to the different regions of the spectrum which travel independently of one another. Hence we consider the intensity of radiation within a certain range of frequencies, say from $\nu$ to $\nu'$. If the interval $\nu'-\nu$ be taken sufficiently small and be denoted by $d\nu$, the intensity of radiation within the interval is proportional to $d\nu$. Such radiation is called homogeneous or monochromatic. \par 
+
+A last characteristic property of a ray of definite direction, intensity, and color is its state of polarization. If we break up a ray, which is in any state of polarization whatsoever and which travels in a definite direction and has a definite frequency $\nu$, into two plane polarized components, the sum of the intensities of the components will be just equal to the intensity of the ray as a whole, independently of the diretion of the two planes, provided the two planes of polarization, which otherwise may be taken at random, are at right angles to each other. If their position be denoted by the azimuth $\psi$ of one of the planes of vibration (plane of the electric vector), then the two components of the intensity may be written in the form 
+\begin{align*}
+    &\mathsf{K}_\nu \cos^2\psi+\mathsf{K}'_\nu\sin^2\psi \\ 
+    \text{and }\quad &\mathsf{K}_\nu\sin^2\psi+\mathsf{K}'_\nu\cos^2\psi.
+    \tag{8}
+    \label{eq8}
+    \setcounter{equation}{8}
+\end{align*}
+Herein $\mathsf{K}$ is independent of $\psi$. These expressions we shall call the ``components of the specific intensity of radiation of frequence $\nu$.'' The sum is independent of $\psi$ and is always equal to the intensity of hte whole ray $\mathsf{K}_\nu+\mathsf{K}'_\nu$. At the same time $\mathsf{K}_\nu$ and $\mathsf{K}'_\nu$ represent respectively the largest and smallest values which either of the components may have, namely, when $\psi=0$ and $\psi=\frac{\pi}{2}$. Hence we call these values the ``principal values of the intensities,'' or the ``principal intensities,'' and the corresponding planes of vibration we call the ``principal planes of vibration'' of the ray. Of course both, in general, vary with the time. Thus we may write generally 
+\begin{equation}  
+    \mathsf{K}=\int_0^\infty d\nu(\mathsf{K}_\nu+\mathsf{K}'_\nu)
+    \label{eq9}
+\end{equation}
+where the positive quantities $\mathsf{K}_\nu$ and $\mathsf{K}'_\nu$, the two principal values of the specific intensity of the radiation (brightness) of frequncy $\nu$, depend not only on $\nu$ byt also on their position, the time, and on the angles $\theta$ and $\phi$. By substitution in \eqref{eq6} the energy radiated in the time $dt$ through the element of area $d\sigma$ in the direction of the conical element $d\Omega$ assumes the value 
+\begin{equation}
+    dt\ d\sigma\ \cos\theta\ d\Omega\ \int_0^\infty d\nu(\mathsf{K}_\nu+\mathsf{K}('_\nu))
+    \label{eq10}
+\end{equation}
+and for monochromatic plane polarized radiation of brightness $\mathsf{K}_\nu$:
+\begin{equation}
+    dt\ d\sigma \cos\theta\ d\Omega\ \mathsf{K}_\nu\ d\nu=dt\ d\sigma \sin\theta \cos\theta\ d\theta\ d\phi\ \mathsf{K}_\nu\ d\nu.
+    \label{eq11}
+\end{equation}
+For unpolarized rays $\mathsf{K}_\nu=\mathsf{K}'_\nu$, and hence 
+\begin{equation}
+    K=2\int_0^\infty d\nu\ \mathsf{K}_\nu,
+    \label{eq12}
+\end{equation}
+and the energy of a monochromatic ray of frequncy $\nu$ will be:
+\begin{equation}
+    2\ dt\ d\sigma \cos\theta\ d\Omega\ \mathsf{K}_\nu\ d\nu=2\ dt\ d\sigma \sin\theta \cos\theta\ d\theta\ d\phi\ \mathsf{K}_\nu\ d\nu.
+    \label{eq13}
+\end{equation}
+When, moreover, the radiation is uniformly distributed in all directions, the total radiation through $d\sigma$ toward one side may be found from \eqref{eq7} and \eqref{eq12}: it is 
+\begin{equation}
+    2\pi\ d\sigma\ dt \int_0^\infty \mathsf{K}_\nu\ d\nu.
+    \label{eq14}
+\end{equation} \par 
+
+\textbf{18.} Since in nature $\mathsf{K}_\nu$ can never infinitely large, $K$ will not have a finite value unless $\mathsf{K}_\nu$ differs from zero over a finite range of frequencies. Hence there exists in nature no absolutely homogeneous or monochromatic radiation of light or heat. A finite amount of radiation contains always a finite although possibly very narrow range of the spectrum. This implies a fundamental difference from the corresponding phenomena of acoustics, where a finite intensity of sound may correspond to a single definite frequency. This difference is, among other things, the cause of the fact that the second law of thermodynamics has an important bearing on light and heat rays, but not on sound waves. This will be further discussed later on. \par 
+
+\textbf{19.} From equation \eqref{eq9} it is seen that hte quantity $\mathsf{K}_\nu$, the intensity of radiation of frequncy $\nu$, and the quantity $K$, the intensity of radiation of the whole spectrum, are of different dimensions. Further it is to be noticed that, on subdividing the spectrum according to wave lengths $\lambda$, instead of frequencies $\nu$, the intensity of radiation $E_\lambda$ of the wave lengths $\lambda$ corresponding to the frequency $\nu$ is not obtained simply by replacing $\nu$ in the expression for $\mathsf{K}_\nu$ by the corresponding value of $\lambda$ deduced from 
+\begin{equation}
+    \nu=\frac{q}{\lambda}
+    \label{eq15}
+\end{equation}
+where $q$ is the velocity of propagation. For if $d\lambda$ and $d\nu$ refer to the same interval of the spectrum, we have, not $E_\lambda=\mathsf{K}_\nu$, but $E\lambda d\lambda=\mathsf{K}_\nu d\nu$. By differentiating \eqref{eq15} and paying attention to the signs of corresponding values of $d\lambda$ and $d\nu$ the equation 
+\begin{equation*}
+    d\nu=\frac{qd\lambda}{\lambda^2}
+\end{equation*}
+is obtained. Hence we get by substitution:
+\begin{equation}
+    \label{eq16}
+    E_\lambda=\frac{q\mathsf{K}_\nu}{\lambda^2}.
+\end{equation}
+This relation shows among other things that in a certain spectrum the maxima of $E_\lambda$ and $\mathsf{K}_\nu$ lie at different points of the spectrum. \par 
+
+\textbf{20.} When the principal intensities $\mathsf{K}_\nu$ and $\mathsf{K}_\nu'$ of all monochromatic rays are given at all points of the medium and for all directions, the state of radiation is known in all respects and all questions regarding it may be answered. We shall show this by one or two applications to special cases. Let us first find the amount of energy which is radiated through any element of area $d\sigma$ toward any other element $d\sigma'$. The distance $r$ between the two elements may be thought of as large compared with the linear dimensions of the elements $d\sigma$ and $d\sigma'$ but still so small that no appreciable amount of radiation is absorbed or scattered along it. This condition is, of course, superfluous for diathermanous media. \par 
+
+From any definite point of $d\sigma$ rays pass to all points of $d\sigma'$. These rays form a cone whose vertex lies in $d\sigma$ amd whose solid angle is 
+\begin{equation*}
+    d\Omega=\frac{d\sigma'\cos(\mathsf{n}',r)}{r^2}
+\end{equation*}
+where $\mathsf{n}'$ denotes the normal of $d\sigma'$ and the angle $(\mathsf{n}',r)$ is to be taken as an acute angle. This value of $d\Omega$ is, neglecting small quantities of higher order, independent of the particular position of the vertex of the cone on $d\sigma$. \par 
+
+If we further denote the normal to $d\sigma$ by $\mathsf{n}$ the angle $\theta$ of \eqref{eq14} will be the angle $(\mathsf{n}',r)$ and hence from expression \eqref{eq6} the energy of radiation required is found to be:
+\begin{equation}
+    K\cdot\frac{d\sigma\ d\sigma' \cos(\mathsf{n},r)\cos(\mathsf{n}',r)}{r^2}\cdot dt.
+    \label{eq17}
+\end{equation} 
+For the monochromatic plane polarized radiation of frequency $\nu$ the energy will be, according to equation \eqref{eq11},
+\begin{equation}
+    \mathsf{K}_\nu d\nu\cdot\frac{d\sigma\ d\sigma' \cos(\mathsf{n},r)\cos(\mathsf{n}',r)}{r^2}\cdot dt.
+    \label{eq18}
+\end{equation} \par 
+The relative size of the two elements $d\sigma$ and $d\sigma'$ may have any value whatever. They may be assumed to be of the same or of different order of magnitude, provided the condition remains satisfied that $r$ is large compared with the linear dimensions of each of them. If we choose $d\sigma$ small compared with $d\sigma'$, the rays divers from $d\sigma$ to $d\sigma'$, whereas they converge from $d\sigma$ to $d\sigma'$ if we choose $d\sigma$ large compared with $d\sigma'$. \par 
+
+\textbf{21.} Since every point of $d\sigma$ is the vertex of a cone spreading out toward $d\sigma'$, the whole pencil of rays here considered, which is defined by $d\sigma$ and $d\sigma'$, consists of a double infinity of point pencils or of a fourhold infinity of rays which must all be considered equally for the energy radiation. Similarly the pencil of rays may be thought of as consisting of the cones which, emanting from all points of $d\sigma$, converge in one point of $d\sigma'$ respectively as a vertex. If we now imagine the whole pencil of rays to be cut by a plane at any arbitrary distance from the elements $d\sigma$ and $d\sigma'$ and lying either betwen them or outside, then the cross-sections of any two point pencils on this plane will not be identical, not even approximately. In general they will partly overlap and partly lie outside of each other, the amount of overlapping being different for different intersecting planes. Hence it follows that there is no definite cross-section of the pencil of rays so far as the uniformity of radiation is concerned. If, however, the intersecting plane coincides with either $d\sigma$ or $d\sigma'$, then the pencil has a definite cross-section. Thus these two planes show an exceptional property. We shall call them the two ``focal planes'' of the pencil. \par 
+
+In the special case already mentioned above, namely, when one of the two focal planes is infinitely small compared with the other, the whole pencil of rays shows the character of a point pencil inasmuch as its form is approximately that of a cone having its vertex in that focal plane which is small compared with the other. In that case the ``cross-section'' of the whole pencil at a definite point has a definite meaning. Such a pencil of rays, which is similar to a cone, we shall call an elementary pencil, and the small focal plane we shall call the first focal plane of the elementary pencil. The radiation may either converging toward the first focal plane or diverging from the first focal plane. All the pencils of rays passing through a medium may be considered as consisting of such elementary pencils, and hence we may base our future considerations on elementary pencils only, which is a great convenience, owing to their simple nature. \par 
+
+As quantities necessary to define an elementary pencil with a given first focal plane $d\sigma$, we may choose not the second focal plane $d\sigma'$ but the magnitude of that solid angle $d\Omega$ under which $d\sigma'$ is seen from $d\sigma$. On the other hand, in the case of an arbitrary pencil, that is, when the two focal planes are of the same order of magnitude, the second focal plane in general cannot be replaced by the solid angle $d\Omega$ without the pencil changing markedly in character. For if, instead of $d\sigma'$ being given, the magnitude and direction of $d\Omega$, to be taken as constant for all points of $d\sigma$, is given, then the rays emanating from $d\sigma$ do not any longer form the original pencil, but rather an elementary pencil hwose first focal plane is $d\sigma$ and whose second focal plane lies at an infinite distance. \par 
+
+\textbf{22.} Since the energy radiation is propagated in the medium with a finite velocity $q$, there must be in a finite space a finite amount of energy. We shall therefore speak of the ``space density of radiation,'' meaning thereby the ratio of the total quantity of energy of radiation contained in a volume-element to the magnitude of the latter. Let us now calculate the space density of radiation $u$ at any arbitrary point of the medium. When we consider an infinitely small element of volume $v$ at the point in question, having any shape whatsoever, we must allow for all rays passing through the volume-element $v$. For this purpose we shall construct about any point $O$ of $v$ as center a spher of radius $r$, $r$ being large compared with the linear dimensions of $v$ but still so small that no appreciable absorption or scattering of the radiation takes place in the distance $r$ (Fig. 1). Every ray which reaches $v$ must then come from some point on the surface of the sphere. If, then, we at first consider only all the rays that come from the points of an infinitely small element of area $d\sigma$ on the surface of the sphere, and reach $v$, and then sum up for all elements of the spherical surface, we shall have accounted for all rays and not taken any one more than once. \par 
+\begin{center}
+    \begin{tikzpicture}
+        \draw (2,2) circle (3cm);
+    \end{tikzpicture}
+\end{center}
+
+Let us then calculate first the amount of energy which is contributed to the energy contained in $v$ by the radiation sent from such an element $d\sigma$ to $v$. We choose $d\sigma$ so that its linear dimensions are small compared with those of $v$ and consider the cone of rays which, starting at a point of $d\sigma$, meeets the volume $v$. This cone consists of an infinite number of conical elements with the common vertex at $P$, a point of $d\sigma$, each cutting out of the volume $v$ a certain element of length, say $s$. The solid angle of such a conical element is $\frac{f}{r^2}$ where $f$ denotes the area of cross-section normal to the axis of the cone at a distance $r$ from the vertez. The time required for the radiation to pass through the distance $s$ is: 
+$$\tau=\frac{s}{q}.$$
+From expression \eqref{eq6} we may find the energy radiated through a certain element of area. In the present case $d\Omega =\frac{f}{r^2}$ and $\theta=0$; hence the energy is:
+\begin{equation}
+    \tau d\sigma \frac{f}{r^2}K=\frac{fs}{r^2q}\cdot Kd\sigma.
+    \label{eq19}
+\end{equation}
+This energy enters the conical element in $v$ and spreads out into the volume $fs$. Summing up over all conical elements that start from $d\sigma$ and enter $v$ we have 
+$$\frac{Kd\sigma}{r^2q}\sum fs=\frac{Kd\sigma}{r^2q}v.$$
+This represents the entire energy of radiation contained in the volume $v$, so far as it is caused by radiation through the element $d\sigma$. In order to obtain the total energy of radiation contained in $v$ we must integrate over all elements $d\sigma$ contained in the surface of the sphere. Denoting by $d\Omega$ the solid angle $\frac{d\sigma}{r^2}$ of a cone which has its center in $O$ and intersects in $d\sigma$ the surface of the sphere, we get for the whole energy:
+$$\frac{v}{q}\int Kd\Omega.$$
+The volume density of radiation required is found from this by dividing by $v$. It is 
+\begin{equation}
+    u=\frac{1}{q}\int Kd\Omega.
+    \label{eq20}
+\end{equation} \par 
+
+Since in this expression $r$ has disappeared, we can think of $K$ as the intensity of radiation at the point $O$ itself. In integrating, it is to be noted that $K$ in general depends on the direction $(\theta,\phi)$. For radiation that is uniform in all directions $K$ is a constant and on integration we get:
+\begin{equation}
+    u=\frac{4\pi K}{q}.
+    \label{eq21}
+\end{equation} \par 
+
+\textbf{23.} A meaning similar to that of the volume density of the total radiation $u$ is attached to the volume density of radiation of a definite frequency $\mathsf{u}_\nu$. Summing up for all parts of the spectrum we get:
+\begin{equation}
+    u=\int_0^\infty\mathsf{u}_\nu d\nu.
+    \label{eq22} 
+\end{equation} \par 
+
+Further by combining equations \eqref{eq9} and \eqref{eq20} we have: 
+\begin{equation}
+    \mathsf{u}_\nu=\frac{1}{q}\int(\mathsf{K}_\nu+\mathsf{K}_\nu')d\Omega,
+    \label{eq23}
+\end{equation}
+and finally for unpolarized radiation uniformly distributed in all directions: 
+\begin{equation}
+    \mathsf{u}_\nu=\frac{8\pi\mathsf{K}_\nu}{q}.
+    \label{eq24}
+\end{equation} \par 
+
+\chapter[Radiation at Thermodynamic Equilibrium]{Radiation at Thermodynamic Equilibrium.\\ Kirchhoff's Law. Black Radiation}
+\chaptermark{Radiation at Thermodynamic Equilibrium}
+
+\textbf{24.} We shall now apply the laws enunciated in the last chapter to the special case of thermodynamic equilibrium, and hence we begin our consideration by stating a certain consequence of the second principle of thermodynamics: A system of bodies of arbitrary nature, shape, and position which is at rest and is surrounded by a rigid cover impermeable to heat will, no matter what its initla state may be, pass in the course of time intoa a permanent state, in which the temperature of all bodies of the system is the same. This is the state of thermodynamic equilibrium, in which the entropy of the system has the maximum value compatible with the total energy of the system as fixed by the initial conditions. This state being reached, no further increase in entropy is possible. \par 
+
+In certain cases it may happen that, under the given conditions, the entropy can assume not only one but several maxima, of which one is the absolute one, the others having only a relative significance.\footnote{See, \textit{e.g., M. Planck}, Vorlesungen \"uber Thermodynamik, Leipzig, Veit and Comp., 1911 (or English Translation, Longmans Green \& Co.), Secs. 165 and 189, \textit{et seq.}} In these cases every state corresponding to a maximum value of the entropy represents a state of thermodynamic equilibrium of the system. But only one of them, the one corresponding to the absolute maximum of entropy, represents the absolutely stable equilibrium. All the others are in a certain sense unstanble, inasmuch as a suitable, however small, disturbance may produce in a system a permanent change in the equilibrium in the direction of the absolutely stable equilibrium. An example of this is offered by supersaturated steam enclosed in a rigid vessl or by any explosive substance. We shall also meet such unstable equilibria in the case of radiation phenomena (Sec. 52). \par 
+
+\textbf{25.} We shall now, as in the previous chapter, assume that we are dealing with homogeneous isotropic media whose condition depends only on the temperature, and we shall inquire what laws the radiation phenomena in them must obey in order to be consistent with teh deduction from the second principle mentioned in the preceding section. The means of answering this inquiry is supplied by the investigation of the state of thermodynamic equilibrium of one or more of such media, this investigation to be conducted by applying the conceptions and laws established in the last chapter. \par 
+
+We shall being with the simplest case, that of a single medium extending very far in all directions of space, and, like all systems we shall here consider, being surrounded by a rigid cover impermeable of heat. For the present we shall assume that the medium has finite coefficients of absorption, emission, and scattering. \par 
+
+Let us consider, first, points of the medium that are far away form the surface. At such points the influence of the surface is, of course, vanishingly small and from the homogeneity and the isotropy of the medium it will follow that in a state of thermodynamic equilibrium the radiation of heat has everywhere and in all directions the same properties. Then $\mathsf{K}_\nu$, the specific intensity of radiation of a plane polarized ray of frequency $\nu$ (Sec. 17), must be independent of the azimuth of the plane of polarization as well as of position and direction of the ray. Hence to each pencil of rays starting at an element of area $d\sigma$ and diverging within a conical element $d\Omega$ corresponds an exactly equal pencil of opposite direction converging within the same conical element toward the element of area. \par 
+
+Now the condition of thermodynamic equilibrium requires that the temperature shall be everywhere the same and shall not very in time. Therefore in any given arbitrary time just as much radiant heat must be absorbed as is emitted in each volume-element of the medium. For the heat of the body depends only on the heat radiation, since, on account of the uniformity in temperature, no doncution of heat takes place. This condition is not influenced by the phenomenon of scattering, because scattering refers only to a change in direction of the energy radiated, not to a creation or destruction of it. We shall, therefore, calculate the energy emitted and absorbed in the time $dt$ by a volume element $v$. \par 
+
+According to equation \eqref{eq2} the energy emitted has the value 
+$$dt\ v\cdot 8\pi\int_0^\infty \epsilon_\nu d\nu$$
+where $\epsilon_\nu$, the coefficient of emission of the medium, depends only on the frequency $\nu$ and on the tempertaure in addition to the chemical nature of the medium. \par 
+
+\textbf{26.} For the calculation of the energy absorbed we shall employ the same reasoning as was illustrated by Fig. 1 (Sec. 22) and shall retain the notation there used. The radiant energy absorbed by the volume-element $v$ in the time $dt$ is found by considering the intensities of all the rays passing through the element $v$ and taking that fraction of each of these rays which is absorbed in $v$. Now, according to \eqref{eq19}, the conical element that starts from $d\sigma$ and cuts out of the volume $v$ a part equal to $fs$ has the intensity (energy radiated per unit of time)
+$$d\sigma\cdot\frac{f}{r^2}\cdot K$$
+or, according to \eqref{eq12}, by considering the different parts of the spectrum separately:
+$$2d\sigma\frac{f}{r^2}\int_0^\infty \mathsf{K}_\nu d\nu.$$
+Hence the intensity of a monochromatic ray is: 
+$$2d\sigma\frac{f}{r^2}\mathsf{K}_\nu d\nu.$$
+The amount of energy of this ray absorbed in the distance $s$ in the time $dt$ is, according to \eqref{eq4},
+$$dt\alpha_\nu s2d\sigma\frac{f}{r^2}\mathsf{K}_\nu d\nu.$$
+Hence the absorbed part of the energy of this small cone of rays, as found by integrating over all frequencies, is: 
+$$dt2d\sigma\frac{fs}{r^2}\int_0^\infty\alpha_\nu\mathsf{K}_\nu d\nu.$$
+When this expression is summed up over all the different cross-sections $f$ of the conical elements starting at $d\sigma$ and passing through $v$, it is evident that $\sum fs=v$, and when we sum up over all elements $d\sigma$ of the spherical surface of radius $r$ we have 
+$$\int\frac{d\sigma}{r^2}=4\pi.$$
+Thus for the total radiant energy absorbed in the time $dt$ by the volume-element $v$ the following expression is found:
+\begin{equation}
+    dt\ v\ 8\pi\int_0^\infty \alpha_\nu\mathsf{K}_\nu d\nu.
+    \label{eq25}
+\end{equation}
+By equating the emitted and absorbed energy we obtain: 
+\begin{equation*}
+    \int_0^\infty \epsilon_\nu d\nu=\int_0^\infty \alpha_\nu\mathsf{K}_\nu d\nu.
+\end{equation*} \par 
+
+A similar relation may be obtained for the separate parts of the spectrum. For the energy emitted and the energyabsorbed in the state of thermodynamic equilibrium are equal, not only for the entire radiation of the whole spectrum, but also for each monochromatic radiation. This is readily seen from the following. The magnitudes of $\epsilon_\nu$, $\alpha_\nu$, and $\mathsf{K}_\nu$ are independent of position. Hence, if for any single color the absorbed were not equal to the emitted energy, there would be everywhere in the whole medium a continuous increase or decrease of the energy radiation of that particular color at the expense of the other colors. This would be contradictory to the condition that $\mathsf{K}_\nu$ for each separate frequency does not change with the time. We have therefore for each frequency the relation:
+\begin{align}
+    \epsilon_\nu&=\alpha_\nu\mathsf{K}_\nu, \text{ or} \label{eq26}\\
+    \mathsf{K}_\nu&=\frac{\epsilon_\nu}{\alpha_\nu},
+    \label{eq27}
+\end{align}   
+\textit{i.e.: in the interior of a medium in a state of thermodynamic squilibrium the specific intensity of radiation of a certain frequency is equal to the coefficient of emission divided by the coefficient of absorption of the medium for this frequency.} \par 
+
+\textbf{27.} Since $\epsilon_\nu$ and $\alpha_\nu$ depend only on the nature of the medium, the temperature, and the frequency $\nu$, the intensity of radiation of a definite colort in the state of thermodynamic equilibrium is completely defined by the nature of the medium and the temperature. An edxceptional case is when $\alpha_\nu=0$, that is, when the medium does not at all absorb the color in question. Since $\mathsf{K}_\nu$ cannot become infinitely large, a first consequence of this is that in that case $\epsilon_\nu=0$ also, that is, a medium does not emit any color which it does not absorb. A second consequence is that if $\epsilon_\nu$ and $\alpha_\nu$ both vanish, equation \eqref{eq26} is satisfied by every value of $\mathsf{K}_\nu$. \textit{In a medium which is diathermanous for a certain color thermodynamic equilibrium can exist for any intensity of radiation whatever of that color.} \par 
+
+This supplies an immediate illustration of the cases spoken of before (Sec. 24), where, for a given value of the total energy of a system enclosed by a rigid cover impermeable to heat, several states of equilibrium can exist, corresponding to sevberal relative maxima of the entropy. That is to say, since the intensity of radiation of the particular color in the state of thermodynamic equilibium is quite independent of the temperature of a medium which is diathermanous for this color, the given total energy may be arbitrarily distributed between radiation of that color and the heat of the body, without making thermodynamic equilibrium impossible. Among all these distributions there is one particular one, corresponding to the absolute maximum of entropy, which represents absolutely stable equilibrium. This one, unlike all the others, which are in a certain sense unstable, has the property of notbeing appreciably affected by a small disturbance. Indeed we shall see later (Sec. 48) that among the infinite number of values, which the quotient $\frac{\epsilon_\nu}{\alpha_\nu}$ can have, if numerator and denominator both vanish, there exists one particular one which depends in a definite way on the nature of the medium, the frequence $\nu$, and the temperature. This distinct value of the fraction is accordingly called the stable intensity of radiation $\mathsf{K}_\nu$, in the medium, which at the temperature in question is diathermanous for rays of the frequency $\nu$. \par 
+
+Everything that has just been said of a medium which is diathermanous for a certain kind of rays holds true for an absolute vacuum, whidch is a medium diathermanous for rays of all kinds, the only difference being that one cannot speak of the heat and the temperature of an absolute vacuum in any definite sense. \par 
+
+For the present we again shall put the special case of diathermancy aside and assume that all the media considered have a finite coefficient of absoption. \par 
+
+\textbf{28.} Let us now consider briefly the phenomenon of scattering at thermodynamic equilibrium. Every ray meeting the volume-element $v$ suffers there, apart from absorption, a certain weakening of its intensity because a certain fraction of its energy is diverted in different directions. The value of the total energy of scattered radiation received and diverted, in the time $dt$ by the volume-element $v$ in all directions, may be calculated from expression \eqref{eq3} in exactly the same way as the value of the absorbed energy was calculated in Sec. 26. Hence we get an expression similar to \eqref{eq25}, namely, 
+\begin{equation}
+    dt\ v\ 8\pi\int_0^\infty\beta_\nu\mathsf{K}_\nu d\nu.
+    \label{eq28}
+\end{equation}
+The question as to what becomes of this energy is readily answered. On account of the isotropy of the medium, the energy scattered in $v$ and given by \eqref{eq28} is radiated uniformly in all directions just as in the case of the energy entering $v$. Hence that part of the scattered energy received in $v$ which is radiated out in a cone of solid angle $d\Omega$ is obtained by multiplying the last expression by $\frac{d\Omega}{4\pi}$. This gives 
+$$2\ dt\ v\ d\Omega\int_0^\infty\beta_\nu\mathsf{K}_\nu d\nu,$$ 
+and, for monochromatic plane polarized radiation, 
+\begin{equation}
+    dt\ v\ d\Omega\beta_\nu\mathsf{K}_\nu d\nu.
+    \label{eq29}
+\end{equation} \par 
+
+Here it must be carefully kept in mind that this uniformity of radiation in all directions holds only for all rays striking the element $v$ taken together; a single ray, even in an isotropic medium, is scattered in different directions with different intensities and different directions of polarization. (See end of Sec. 8.) \par 
+
+It is thus found that, when thermodynamic equilibrium of radiation exists inside of the medium, the process of scattering produces, on the whole, no effect. The radiation falling on a volume-element from all sides and scattered from it in all directions behaves exactly as if it had passed directly through the volume-element without the least modification. Every ray loses by scattering just as much energy as it regains by the scattering of other rays. \par 
+
+\textbf{29.} We shall now consider from a different point of view the radiation phenomena in the interior of a very extended homogeneous isotropic medium which is in thermodynamic equilibrium. That is to say, we shall confine our attention, not to a definite volume-element, but to a definite pencil, and in fact to an elementary pencil (Sec. 21). Let this pencil be specified by the infinitely small focal plane $d\sigma$ at the point $O$ (Fig. 2), perpendicular to the axis of the pencil, and by the solid angle $d\Omega$, and let the radiation take place toward the focal plane in the direction of the arrow. We shall consider exclusively rays which belong to this pencil. \par 
+
+The energy of monochromatic plane polarized radiation of the pencil considered passing in unit time through $d\sigma$ is represented, according to \eqref{eq11}, since in this case $dt=1$, $\theta=0$, by 
+\begin{equation}
+    \label{eq30}
+    d\sigma d\Omega \mathsf{K}_\nu d\nu.
+\end{equation}
+The same value holds for any other cross-section of the pencil. For first $\mathsf{K}_\nu d\nu$ has everywhere the same magnitude (Sec. 25), and second, the product of any right section of the pencil and the solid angle at which the focal plane $d\sigma$ is seen from this section has the constant value $d\sigma d\Omega$, since the magnitude of the cross-section increases with the distance from the vertex $O$ of the pencil in the proportion in which the solid angle decreses. Hence the radiation inside of the pencil takes place just as if the medium were perfectly diathermanous. \par 
+
+On the other hand, the radiation is continuously modifies along its path by the effect of emission, absorption, and scattering. We shall consider the magnitude of these effects separately. \par 
+
+\textbf{30.} Let a certain volume-element of the pencil be bounded by two cross-sections at distances equal to $r_0$ (of arbitrary length) and $r_0+dr_0$ respectively from the vertex $O$. The volume will be represented by $dr_0\cdot r_0^2d\Omega$. It emits in unit time toward the focal plane $d\sigma$ at $O$ a certain quantity $E$ of energy of monochromatic plane polarized radiation. $E$ may be obtained from \eqref{eq1} by putting 
+\begin{equation*}
+    dt=1,\quad d\tau=d r_0\, r_0^2\, d\Omega,\quad d\Omega=\frac{d\sigma}{r_0^2}
+\end{equation*}
+and omitting the numerical factor 2. We thus get 
+\begin{equation}
+    E=dr_0\cdot d\Omega\ d\sigma\ \epsilon_\nu d\nu. 
+    \label{eq31}
+\end{equation} \par 
+
+Of the energy $E$, however, only a fraction $E_0$ reaches $O$, since in every infinitesimal element of distance $s$ which it traverses before reaching $O$ the fraction $(\alpha_\nu+\beta_\nu)s$ is lost by absorption and scattering. Let $E_r$ represent that part of $E$ which reaches a cross-section at a distance $r$ ($<r_0$) from $O$. Then for a small distance $s=dr$ we have 
+$$E_{r+dr}-E_r=E_r(\alpha_\nu+\beta_\nu)dr,$$
+or, 
+$$\frac{dE_r}{dr}=E_r(\alpha_\nu+\beta_\nu),$$
+and, by integration, 
+$$E_r=Ee^{(\alpha_\nu+\beta_\nu)(r-r_0)}$$
+since, for $r=r_0$, $E_r=E$ is given by equation \eqref{eq31}. From this, by putting $r=0$, the energy emitted by the volume-element at $r_0$ which reaches $O$ is found to be 
+\begin{equation}
+    E_0=Ee^{-(\alpha_\nu+\beta_\nu)r_0}=dr_0\, d\Omega\, d\sigma\, \epsilon_\nu e^{-(\alpha_\nu+\beta_\nu)r_0}d\nu.
+    \label{eq32}
+\end{equation}
+All volume-elements of the pencils combined produce by their emission an amount of energy reaching $d\sigma$ equal to 
+\begin{equation}
+    d\Omega\, d\sigma\, d\nu\, \epsilon_\nu\int_0^\infty dr_0e^{-(\alpha_\nu+\beta_\nu)r_0}=d\Omega d\sigma\frac{\epsilon_\nu}{\alpha_\nu+\beta_\nu}d\nu. 
+    \label{eq33}
+\end{equation} \par 
+
+\textbf{31.} If the scattering did not affect the radiation, the total energy reaching $d\sigma$ would necessarily consist of the quantities of energy emitted by the different volume-elements of the pencil, allowance being made, however, for the losses due to absorption on the way. For $\beta_\nu=0$ expressions \eqref{eq33} and \eqref{eq30} are identical, as may be seen by comparison with \eqref{eq27}. Generally, however, \eqref{eq30} is larger than \eqref{eq33} because the energy reaching $d\sigma$ containes also some rays which were not at all emitted from elements inside of the pencil, but somewhere else, and have entered later on by scattering. In fact, the volume-elements of the pencil do not merely scatter outward the radiation which is being transmitted inside the pencil, but they also collect into the pencil rays coming from without. The radiation $E'$ thus collected by the volume-element at $r_0$ is found, by putting in \eqref{eq29},
+$$dt=1,\quad v=dr_0\, d\Omega\, r_0^2, \quad d\Omega=\frac{d\sigma}{r_0^2},$$
+to be 
+$$E'=dr_0\, d\Omega\, d\sigma \beta_\nu\mathsf{K}_\nu d\nu.$$ \par 
+
+This energy is to be added to the energy $E$ emitted by the volume-element, which we have calculated in \eqref{eq31}. Thus for the total energy contributed to the pencil in the volume-element at $r_0$ we find: 
+$$E+E'=dr_0\, d\Omega\, d\sigma(\epsilon_\nu+\beta_\nu\mathsf{K}_\nu)d\nu.$$ 
+The part of this reaching $O$ is, similar to \eqref{eq32}:
+$$dr_0\, d\Omega\, d\sigma\, (\epsilon_\nu+\beta_\nu\mathsf{K}_\nu)\, d\nu\, \epsilon^{-r_0\, (\alpha_\nu+\beta_\nu)}.$$
+Making due allowance for emission and collection of scattered rays entering on the way, as well as for losses by absorption and scattering, all volume-elements of the pencil combined give for the energy ultimately reaching $d\sigma$ 
+$$d\Omega\, d\sigma\, (\epsilon_\nu+\beta_\nu\mathsf{K}_\nu)\, d\nu\int_0^\infty dr_0\, e^{-r_0\, (\alpha_\nu+\beta_\nu)}=d\Omega\, d\sigma\, \frac{\epsilon_\nu+\beta_\nu\mathsf{K}_\nu}{\alpha_\nu+\beta_\nu}\, d\nu,$$ 
+and this expression is really exactly equal to that given by \eqref{eq30}, as may be seen by comparison with \eqref{eq26}. \par 
+
+\textbf{32.} The laws just derived for the state of radiation of a homogeneous isotropic medium when it is in thermodynamic equilibrium hold, so far as we have seen, only for parts of the medium which lie very far away from the surface, because for such parts only may the radiation be considered, by symmetry, as independent of position and direction. A simple consideration, however, shows that the value of $\mathsf{K}_\nu$, which was already calculated and given by \eqref{eq27}, and which depends only on the temperature and the nature of the medium, gives the correct value of the intensity of radiation of the frequency considered for all directions up to points directly below the surface of the medium. For in the state of thermodynamic equilibrium every ray must have jsut the same intensity as the one travelling in an exactly opposite direction, since otherwise the radiation would cause a unidirectional transport of energy. Consider then any ray coming from the surface of the medium and directed inward; it must have the same intensity as the opposite ray, coming from the interior. A further immediate consequence of this is \textit{that the total state of radiation of the medium is the same on the surface as in the interior}. \par 
+
+\textbf{33.} While the radiation that starts from a surface element and is directed toward the interior of a medium is in ever respect eqwual to that emanating from an equally large parallel element of area in the interior, it nevertheless has a different history. That is to say, since the surface of the medium was assumed to be impermeable to heat, it is produced only be reflection at the surface of radiation coming from the interior. So far as special details are concerned, this can happen in very different ways, depending on whether the surface is assumed to be smooth, \textit{i.e.}, in this case reflecting, or rough, \textit{e.g.}, white (Sec. 10). In the first case there corresponds to each pencil which strikes the surface another perfectly definite pencil, symmetrically situated and having the same intensity, while in the second case every incident pencil is broken up into an infinite numberof reflected pencils, each having a different direction, intensity, and polarization. While this is the case, nevertheless the rays that strike a surface-element from all different directions with the same intensity $\mathsf{K}_\nu$ also produce, all taken together, a uniform radiation of the same intensity $\mathsf{K}_\nu$, directed toward the interior of the medium. \par 
+
+\textbf{34.} Hereafter there will not be the slightest difficulty in dispensing with the assumption made in Sec. 25 that the medium in question extends very far in all directions. For after thermodynamic equilibrium has been everywhere established in our medium, the equilibrium is, according to the results of the last paragraph, in no way disturbed, if we assume any number of rigid surfaces impermeable to heat and rough or smooth to be inserted in the medium. By means of these the whole system is divided into an arbitrary number of perfectly closed separate systems, each of which may be chosen as small as the general restrictions stated in Sec. 2 permit. It follows from this that the value of the specific intensity of radiation $\mathsf{K}_\nu$ given in \eqref{eq27} remains valid for the thermodynamic equilbrium of a substance enclosed in a space as small as we please and of any shape whatever. \par 
+
+\textbf{35.} From the consideration of a system consisting of a single homogeneous isotropic substance we now pass on to the treatment of a system consisting of two different homogeneous isotropic substances contiguous to each other, the system being, as before, enclosed by a rigid cover impermeable to heat. We consider the state of radiation when thermodynamic equilibrium exists, at first, as before, with the assumption that the media are of considerable extent. Since the equilbirium is nowise distrubed, if we think of the surface separating the two media as being replaced for an instant by an area entirely impermeable to heat radiation, the laws of the last paragraphs must hold for each of hte two substances separately. Let the specific intensity of radiation of frequency $\nu$ polarized in an arbitrary plane be $\mathsf{K}_\nu$ in the first substance (the upper one in Fig. 3), and $\mathsf{K}_\nu'$ in the second, and, in general, let all quantities referring to the second substance be indicated by the addition of an accent. Both of the quantities $\mathsf{K}_\nu$ and $\mathsf{K}_\nu'$ depend, according to equation \eqref{eq27}, only on the temperature, the frequency $\nu$, and the nature of the two substances, and these values of the intensities of radiation hold up to very small distances from the bounding surface of the substances, and hence are entirely independent of the properties of this surface. \par 
+
+\textbf{36.} We shall now suppose, to begin with, that the bounding surface of the media is smooth (Sec. 9). Then every ray coming from the first medium and falling on the bounding surface is divided into two rays, the reflected and the transmitted ray. The directions of these two rays vary with the angle of incidence and the color of the incident ray; the intensity also varies with its polarization. Let us denot by $\rho$ (coefficient of reflection) the fraction of the energy reflected, then the fraction transmitted is $(1-\rho)$, $\rho$ depending on the angle of incidence, the frequency, and the polarization of the incident ray. Similar remarks apply to $\rho'$ the coefficient of reflection of a ray coming from the second medium and falling on the bounding surface. \par 
+
+Now according to \eqref{eq11} we have for the monochromatic plane polarized radiation of frequency $\nu$, emitted in time $dt$ toward the first medium (in the direction of the feathered arrow upper left hand in Fig. 3), from an element $d\sigma$ of the bounding surface and contained in the conical element $d\Omega$, 
+\begin{equation}
+    dt\, d\sigma\cos\theta\, d\Omega\mathsf{K}_\nu\, d\nu,
+    \label{eq34}
+\end{equation}
+where
+\begin{equation}
+    d\Omega=\sin\theta\, d\theta\, d\phi.
+    \label{eq35}
+\end{equation}
+This energy is supplied by the two rays which come from the first and the second medium and are repectively reflected from or transmitted by the element $d\sigma$ in the corresponding direction (the unfeathered arrows). (Of the element $d\sigma$ only the one point $O$ is indicated.) The first ray, according to the law of reflection, continues in the symmetrically situated conical element $d\Omega$, the second in the conical element 
+\begin{equation}
+    d\Omega'=\sin\theta' d\theta'\, d\phi' 
+    \label{eq36}
+\end{equation}
+where, according to the law of refraction, 
+\begin{equation}
+    \phi'=\phi \quad \text{and}\quad \frac{\sin\theta}{\sin\theta'}=\frac{q}{q'}.
+    \label{eq37}
+\end{equation} \par 
+
+If we now assume the radiation \eqref{eq34} to be polarized either in the plane of incidence or at right angles thereto, the same will be true for the two radiations of which it consists, and the radiation coming from the first medium and reflected from $d\sigma$ contributes the part 
+\begin{equation}
+    \rho\, dt\, d\sigma \cos\theta\, d\Omega\, \mathsf{K}_\nu\, d\nu 
+    \label{eq38}
+\end{equation}
+while the radiation coming from the second medium and transmitted through $d\sigma$ contributes the part 
+\begin{equation}
+    (1-\rho')\, dt\, d\sigma \cos\theta'\, d\Omega'\, \mathsf{K}_\nu\, d\nu.
+    \label{eq39}
+\end{equation}
+The quantites $dt$ $D\sigma$, $\nu$, and $d\nu$ are written without the accent, because they have the same values in both media. \par 
+
+By adding \eqref{eq38} and \eqref{eq39} and equating their sum to the expression \eqref{eq34} we find 
+\begin{equation*}
+    \rho\, \cos\theta\, d\Omega\, \mathsf{K}_\nu + (1-\rho') \cos\theta'\, d\Omega' \mathsf{K}_\nu'=\cos\theta\, d\Omega\, \mathsf{K}_\nu.
+\end{equation*} \par 
+
+Now from \eqref{eq37} we have 
+$$\frac{\cos\theta\, d\theta}{q}=\frac{\cos\theta'\, d\theta'}{q'}$$
+and further by \eqref{eq35} and \eqref{eq36}
+$$d\Omega' \cos\theta'=\frac{d\Omega \cos\theta\, q'^2}{q^2}.$$
+Therefore we find 
+$$\rho\mathsf{K}_\nu +(1-\rho')\frac{q'^2}{q^2}\mathsf{K}_\nu'=\mathsf{K}$$
+or 
+$$\frac{\mathsf{K}_\nu}{\mathsf{K}_\nu'}\cdot\frac{q^2}{q'^2}=\frac{q-\rho'}{q-\rho}.$$ \par 
+
+\textbf{37.} In the last equation the quantity on the left side is independent of the angle of incidence $\theta$ and of the particular kind of polarization; hence the same must by true for the right side. Hence, whenever the value of this quantity is known for a single angle of incidence and any definite kind of polarization, this value will remain valid for all angles of incidence and all kinds of polarization. Now in the special case when the rays are polarized at right angles to the plane of incidence and strike the bounding surface at the angle of polarization, $\rho=0$, and $\rho'=0$. The expression on the right side of the last equation then becomes 1; hence it must always be 1 and we have the general relations: 
+\begin{equation}
+    \label{eq40}
+    \rho=\rho'
+\end{equation}
+and 
+\begin{equation}
+    \label{eq41}
+    q^2\mathsf{K}_\nu=q'^2\mathsf{K}_\nu'.
+\end{equation} \par 
+
+\textbf{38.} The first of these two relations, which states that the coefficient of reflection of the bounding surface is the same on both sides, is a special case of a general law of reciprocity first stated by \textit{Helmholtz}.\footnote{\textit{H. v. Helmholtz}, Handbuch d. physiologischen Optik 1. Lieferung, Leipzig, Leop. Voss, 1856, p. 169. See also \textit{Helmholtz}, Vorlesungen \"uber die Theorie der W\"arme herausgegeben von \textit{F. Richarz}, Leipzig, J. A. Barth, 1903, p. 161. The restrictions of the law of reciprocity made there do not bear on our problems, since we are concerned with temperature radiation only (Sec. 7).} According to this law the loss of intensity which a ray of definite color and polarization suffers on its way through any media by reflection, refraction, absorption, and scattering is exactly equal to the loss suffered by a ray of the same intensity, color, and polarization pursuing an exactly opposite path. An immediate consequence of this law is that the radiation striking the bounding surface of any two media is always transmitted as well as reflected equally on both sides, for every color, direction, and polarization. \par 
+
+\textbf{39.} The second formula \eqref{eq41} establishes a relation between the intensities of radiation in the two media, for it states that, when thermodynamic equilibrium exists, \textit{the specific intensities of radiation of a certain frequency in the two media are in the inverse ratio of the squares of the velocities of propagation or in the direct ratio of the squares of the indices of refraction.}\footnote{\textit{G. Kirchhoff}, Gesammelte Abhandlungen, Leipzig, J. A. Barth, 1882, p. 594. \textit{R. Clausius}, Pogg. Ann. \textbf{121}, p. 1, 1864.} \par 
+
+By substituting for $\mathsf{K}_\nu$ its value from \eqref{eq27} we obtain the following theorem: \textit{The quantity}
+\begin{equation}
+    \label{eq42}
+    q^2\mathsf{K}_\nu=q^2\frac{\epsilon_\nu}{\alpha_\nu}
+\end{equation}
+\textit{does not depend on the nature of the substance, and is, therefore, a universal function of the temperature $T$ and the frequency $\nu$ alone.} \par 
+
+The great importance of this law lies evidently in the fact that it states a property of radiation which is the same for all bodies in nature, and which need be known only for a single arbitrarily chosen body, in order to be stated quite generally for all bodies. We shall later on take advantage of the opportunity offered by this statement in order actually to calculate this universal function (Sec. 165). \par 
+
+\textbf{40.} We now consider the other case, that in which the bounding surface of the two media is rough. This case is much more general than the one previously treated, inasmuch as the energy of a pencil directed from an element of the bounding surface into the first medium is no longer supplied by two definite pencils, but by an arbitrary number, which come from both media and strike the surface. Here the actual conditions may be very complicated according to the peculiarities of the bounding surface, which moreover may vary in any way from one element to another. However, according to Sec. 35, the values of the specific intensities of radiation $\mathsf{K}_\nu$ and $\mathsf{K}_\nu'$ remain always the same in all directions in both media, just as in the case of a smooth bounding surface. That this condition, necessary for thermodynamic equilibrium, is satisfied is readily seen from \textit{Helmholtz's} law of reciprocity, according to which, in the case of stationary radiation, for each ray striking the bounding surface and diffusely reflected from it on both sides, there is a corresponding ray at the same point, of the same intensity and opposite direction, produced by the inverse process at the same point on the bounding surface, namely by the gathering of diffusely incident rays into a definite direction, just as is the case in the interior of each of the two media. \par 
+
+\textbf{41.} We shall now further generalize the laws obtained. First, just as in Sec. 34, the assumption made above, namely, that the two media extend to a great distance, may be abandoned since we may introduce an arbitrary number of bounding surfaces without disturbing the thermodynamic equilibrium. Thereby we are placed in a position enabling us to pass at once to the case of any number of substances of any size and shape. For when a system consisting of an arbitrary number of contiguous substances is in the state of thermodynamic equilibrium, the equilibrium is in no way disturbed, if we assume one or more of the surfaces of contact to be wholly or partly impermeable to heat. Thereby we can always reduce the case of any number of substances to that of two substances in an enclosure impermeable to heat, and, therefore, the law may be stated quite generally, that, when any arbitrary system is in the state of thermodynamic equilibrium, the specific intensity of radiation $\mathsf{K}_\nu$ is determined in each separate substance by the universal function \eqref{eq42}. \par 
+
+\textbf{42.} We shall now consider a system in a state of thermodynamic equilibrium, contained within an enclosure impermeable to heat and consisting of $n$ emitting and absorbing adjacent bodies of any size and shape whatever. As in Sec. 36, we again confine our attention to a monochromatic plane polarized pencil which proceeds from an element $d\sigma$ of the bounding surface of the two media in the direction twoard the first medium (Fig. 3, feathered arrow) within the conical element $d\Omega$. Then, as in \eqref{eq34}, the energy supplied by the pencil in unit time is 
+\begin{equation}
+    d\sigma\cos\theta\,d\Omega\,\mathsf{K}_\nu\,d\nu=I.
+    \label{eq43}
+\end{equation}
+This energy of radiation $I$ consists of a part coming from the first medium by regular or diffuse reflection at the bounding surface and of a second part coming through the bounding surface from the second medium. We shall, however, not stop at this mode of division, but shall further subdivide $I$ according to that one of the $n$ media from which the separate parts of the radiation $I$ have been emitted. This point of view is distinctly different from the preceding, since, \textit{e.g.}, the rays transmitted from the second medium through the bounding surface into the pencil considered have not necessarily been emitted in the second medium, but may, according to circumstances, have traversed a long and very complicated path through different media nad may have undergone therein the effect of refraction, reflection, scattering, and partial absorption any number of times. Similarly the rays of the pencil, which coming from the first medium are reflected at $d\sigma$, were not necessarily all emitted in the first medium. It may even happen that a ray emitted from a certain medium, aftger passing on its way through other media, returns to the original one and is there either absorbed or emerges from this medium a second time. \par 
+
+We shall now, considered all these possibilities, denote that part of $I$ which has been emitted by volume-elements of the first medium by $I_1$ no matter what paths the different constituents have pursued, that which has been emitted by volume-elements of the second medium by $I_2$, etc. Then since every part of $I$ must have been emitted by an element of some body, the following equation must hold, 
+\begin{equation}
+    \label{eq44}
+    I=I_1+I_2+I_3+\dots I_n.
+\end{equation} \par 
+
+\textbf{43.} The most adequate method of acquiring more detailed information as to the origin and the paths of the different rays of which the radiations $I_1,\, I_2,\, I_3,\,\dots I_n$ consist, is to pursue the opposite course and to inquire into the future fate of that pencil, which travels exactly in the opposite direction to the pencil $I$ and which therefore comes from the first medium in the cone $d\Omega$ and falls on the surface element $d\sigma$ of the second medium. For since every optical path may also be traversed in the opposite direction, we may obtain by this consideration all paths along which rays can pass into the pencil $I$, however complicated they may otherwise be. Let $J$ represent the intensity of this inverse pencil, which is directed toward the bounding surface and is in the same state of polarization. Then, according to Sec. 40, 
+\begin{equation}
+    \label{eq45}
+    J=I.
+\end{equation} \par 
+
+
+\end{document}
