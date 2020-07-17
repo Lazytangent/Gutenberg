@@ -1,6 +1,6 @@
 \documentclass[oneside,12pt]{book}
 
-\usepackage{mathtools,amsthm,amssymb,setspace,titlesec,graphicx}
+\usepackage{mathtools,amsthm,amssymb,setspace,titlesec,graphicx,gensymb}
 \usepackage[margin=1in]{geometry}
 
 \setlength{\parskip}{6pt}
@@ -13,6 +13,8 @@
 \usepackage[symbol]{footmisc}
 \usepackage[version=4]{mhchem}
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+\counterwithout{equation}{chapter}
 
 \begin{document}
     
@@ -121,4 +123,45 @@ This, then, is the factor for converting atmospheres into absolute units. If, as
 \textbf{\S 8.} Since the pressure in a given substance is evidently controlled by its internal physical condition only, and not by its form or mass, it follows that $p$ depends only on the temperature and tha ratio of the mass $M$ to the volume $V$ (\textit{i.e.} the density), or on the reciprocal of the density, the volume of unit mass---which is called the specific volume of the substance. For every substance, then, there exists a characteristic relation---
 $$p=f(v,t),$$
 which is called the \textit{characteristic equation} of the substance. For gases, the function $f$ is invariably positive; for liquids and solids, however, it may have also negative values under certain circumstances. \par 
+
+\setcounter{equation}{0}
+\textbf{\S 9. Perfect Gases.}---The characteristic equation assumes its simplest form for the substances which we used in \S 4 for the definition of temperature. If the temperature be kept constant, then, according to the Boyle-Mariotte law, the product of the pressure and the specific volume remains constant for gases---
+\begin{equation}
+    pb=T,
+    \label{eq9.1}
+\end{equation}
+where $T$, for a given gas, depends only on the temperature. \par 
+
+But if the pressure be kept constant, then, according to \S 3, the temperature is proportional to the difference between the present volume $v$ and the volume $v_0$ at 0\textdegree; \textit{i.e.}---
+\begin{equation}
+    t=(v-v_0)P,
+    \label{eq9.2}
+\end{equation}
+where $P$ depends only on the pressure $p$. Equation \eqref{eq9.1} for $v_0$ becomes 
+\begin{equation}
+    pv_0=T_0,
+    \label{eq9.3}
+\end{equation}
+where $T_0$ is the value of the function $T$, when $t=0$\textdegree C. \par 
+
+Finally, as has already been mentioned in \S 4, the expansion of all permanent gases on heating from 0\textdegree C. to 1\textdegree C. is the same fraction $\alpha$ (about $\frac{1}{273}$) of their volume at 0\textdegree (Gay-Lussac's law). Putting $t=1$, we have $v-v_0=\alpha v_0$, and equation \eqref{eq9.2} becomes 
+\begin{equation}
+    1=\alpha v_0P. 
+    \label{eq9.4}
+\end{equation}
+By eliminating $P$, $v_0$, and $v$ from \eqref{eq9.1}, \eqref{eq9.2}, \eqref{eq9.3}, \eqref{eq9.4}, we obtain the temperature function of the gas---
+$$T=T_0(1+\alpha t),$$
+which is seen to be linear function of $t$. The characteristic equation \eqref{eq9.1} becomes 
+$$p=\frac{T_0}{v}(1+\alpha t).$$ \par 
+
+\setcounter{equation}{0}
+
+\textbf{\S 10.} The form of this equation is considerably simplified by shifting the zero of temperature, arbitrarily fixed in \S 3, by $\frac{1}{\alpha}$ degrees, and calling the melting point of ice, not 0\textdegree C., but $\frac{1\degree}{\alpha}$ C. (\textit{i.e.} about 273\textdegree C.). For, putting $t+\frac{1}{\alpha}=\theta$ (absolute temperature), and the constant $\alpha T_0=C$, the characteristic equation becomes 
+\begin{equation}
+    p=\frac{C}{v}\theta=\frac{CM}{V}\theta.
+    \label{eq10.5}
+\end{equation}
+This introduction of \textit{absolute} temperature is evidently tantamount to measuring temperature no longer, as in \S 3, by a change of volume, but by the volume itself. \par 
+
+\textbf{\S 11.} 
 \end{document}
