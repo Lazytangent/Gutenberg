@@ -1,0 +1,6 @@
+\contentsline {chapter}{Translator's Preface}{i}%
+\contentsline {chapter}{Preface to Second Edition}{ii}%
+\contentsline {chapter}{Preface to the First Edition}{v}%
+\contentsline {part}{I\hspace {1em}Fundamental Facts and Definitions}{1}%
+\contentsline {chapter}{\numberline {1}General Introduction}{2}%
+\contentsline {chapter}{\numberline {2}Radiation at Thermodynamic Equilibrium}{17}%
