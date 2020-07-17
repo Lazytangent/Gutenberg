@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1595020451 "/Users/petermai/Downloads/Gutenberg/Treatise on Thermodynamics/Treatise on Thermodynamics.tex" "/Users/petermai/Downloads/Gutenberg/Treatise on Thermodynamics/Treatise on Thermodynamics.pdf" "Treatise on Thermodynamics" 1595020452
-  "/Users/petermai/Downloads/Gutenberg/Treatise on Thermodynamics/Treatise on Thermodynamics.aux" 1595020452 744 9747167763004e905d72ee3959a979fa ""
-  "/Users/petermai/Downloads/Gutenberg/Treatise on Thermodynamics/Treatise on Thermodynamics.tex" 1595020450 19712 35731910fcaa74c11276ca79c7adad2b ""
+["pdflatex"] 1595021299 "/Users/petermai/Downloads/Gutenberg/Treatise on Thermodynamics/Treatise on Thermodynamics.tex" "/Users/petermai/Downloads/Gutenberg/Treatise on Thermodynamics/Treatise on Thermodynamics.pdf" "Treatise on Thermodynamics" 1595021300
+  "/Users/petermai/Downloads/Gutenberg/Treatise on Thermodynamics/Treatise on Thermodynamics.aux" 1595021300 744 9747167763004e905d72ee3959a979fa ""
+  "/Users/petermai/Downloads/Gutenberg/Treatise on Thermodynamics/Treatise on Thermodynamics.tex" 1595021299 21337 eee437d05759d080d353039fbd09ba8b ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/tcbx1200.tfm" 1136768653 1536 c09172c8f235393e6235bb4758357c41 ""
@@ -45,6 +45,7 @@
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb" 1248133631 34586 5a65dc15601f9c74fe3fb3f37b3b8b6f ""
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1248133631 32587 1788b0c1c5b39540c96f5e42ccd6dae8 ""
+  "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1248133631 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1248133631 36118 fad905eba93cff5bce1e185fe980a177 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb" 1215737283 140176 d4962f948b4cc0adf4d3dde77a128c95 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb" 1215737283 154599 ded6d7c21788a8930eadc7fef7518942 ""
@@ -92,13 +93,13 @@
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1586288239 4811913 0be9a7e86c70a26e5e3042966bcd7097 ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1586288259 2432462 fd0fa20e9a3cb5f8169fd0ba1c955158 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "Treatise on Thermodynamics.aux" 1595020452 744 9747167763004e905d72ee3959a979fa "pdflatex"
-  "Treatise on Thermodynamics.tex" 1595020450 19712 35731910fcaa74c11276ca79c7adad2b ""
-  "Treatise on Thermodynamics.toc" 1595020452 217 c7049c39d244e1def162d0d09f7d4995 "pdflatex"
+  "Treatise on Thermodynamics.aux" 1595021300 744 9747167763004e905d72ee3959a979fa "pdflatex"
+  "Treatise on Thermodynamics.tex" 1595021299 21337 eee437d05759d080d353039fbd09ba8b ""
+  "Treatise on Thermodynamics.toc" 1595021300 217 c7049c39d244e1def162d0d09f7d4995 "pdflatex"
   (generated)
+  "Treatise on Thermodynamics.pdf"
   "/Users/petermai/Downloads/Gutenberg/Treatise on Thermodynamics/Treatise on Thermodynamics.pdf"
   "Treatise on Thermodynamics.toc"
-  "Treatise on Thermodynamics.aux"
-  "Treatise on Thermodynamics.pdf"
   "Treatise on Thermodynamics.log"
+  "Treatise on Thermodynamics.aux"
   "/Users/petermai/Downloads/Gutenberg/Treatise on Thermodynamics/Treatise on Thermodynamics.log"
