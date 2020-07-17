@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  17 JUL 2020 10:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  17 JUL 2020 11:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -132,16 +132,13 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/usr/local/texlive/2020/texmf-dist/tex/latex/preprint/fullpage.sty
-Package: fullpage 1999/02/23 1.1 (PWD)
-\FP@margin=\skip59
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/setspace/setspace.sty
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \ttl@box=\box48
-\beforetitleunit=\skip60
-\aftertitleunit=\skip61
+\beforetitleunit=\skip59
+\aftertitleunit=\skip60
 \ttl@plus=\dimen154
 \ttl@minus=\dimen155
 \ttl@toksa=\toks27
@@ -163,11 +160,30 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen159
 \Gin@req@width=\dimen160
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count192
+\Gm@cntv=\count193
+\c@Gm@tempcnt=\count194
+\Gm@bindingoffset=\dimen161
+\Gm@wd@mp=\dimen162
+\Gm@odd@mp=\dimen163
+\Gm@even@mp=\dimen164
+\Gm@layoutwidth=\dimen165
+\Gm@layoutheight=\dimen166
+\Gm@layouthoffset=\dimen167
+\Gm@layoutvoffset=\dimen168
+\Gm@dimlist=\toks28
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
-\FN@temptoken=\toks28
-\footnotemargin=\dimen161
-\c@pp@next@reset=\count192
+\FN@temptoken=\toks29
+\footnotemargin=\dimen169
+\c@pp@next@reset=\count195
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -180,87 +196,121 @@ Package: mhchem 2018/06/22 v4.08 for typesetting chemical formulae
 Package: expl3 2020-03-06 L3 programming layer (loader) 
  (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count193
+\l__kernel_color_stack_int=\count196
 \l__pdf_internal_box=\box49
 )) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2020-03-06 LaTeX2e option processing using LaTeX3 keys
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/chemgreek/chemgreek.sty (/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2020-03-06 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count194
-\g__xparse_grabber_int=\count195
-\l__xparse_m_args_int=\count196
-\l__xparse_v_nesting_int=\count197
+\l__xparse_current_arg_int=\count197
+\g__xparse_grabber_int=\count198
+\l__xparse_m_args_int=\count199
+\l__xparse_v_nesting_int=\count266
 )
 Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use in chemistry (CN)
-\l__chemgreek_tmpa_int=\count198
-\g__chemgreek_tmpa_int=\count199
+\l__chemgreek_tmpa_int=\count267
+\g__chemgreek_tmpa_int=\count268
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count266
-\__mhchem_arrow_extPgfLength_skip=\skip62
-\mhchem@minispace@tmp=\skip63
-\mhchem@minibackspace@tmp=\skip64
-\mhchem@bondwidth=\skip65
-\mhchem@bondheight=\skip66
-\mhchem@smallbondwidth@tmpA=\skip67
-\mhchem@smallbondwidth@tmpB=\skip68
-\mhchem@smallbondwidth=\skip69
-\mhchem@bondtmp@minussidebearingleft=\skip70
-\mhchem@bondtmp@minussidebearingright=\skip71
-\l__mhchem_option_version_int=\count267
-\mhchem@option@minusmathsidebearingleft=\dimen162
-\mhchem@option@minusmathsidebearingright=\dimen163
-\mhchem@option@minustextsidebearingleft=\dimen164
-\mhchem@option@minustextsidebearingright=\dimen165
+\l__mhchem_ce_distanceFromLastComma_int=\count269
+\__mhchem_arrow_extPgfLength_skip=\skip61
+\mhchem@minispace@tmp=\skip62
+\mhchem@minibackspace@tmp=\skip63
+\mhchem@bondwidth=\skip64
+\mhchem@bondheight=\skip65
+\mhchem@smallbondwidth@tmpA=\skip66
+\mhchem@smallbondwidth@tmpB=\skip67
+\mhchem@smallbondwidth=\skip68
+\mhchem@bondtmp@minussidebearingleft=\skip69
+\mhchem@bondtmp@minussidebearingright=\skip70
+\l__mhchem_option_version_int=\count270
+\mhchem@option@minusmathsidebearingleft=\dimen170
+\mhchem@option@minusmathsidebearingright=\dimen171
+\mhchem@option@minustextsidebearingleft=\dimen172
+\mhchem@option@minustextsidebearingright=\dimen173
 ) (/Users/petermai/Downloads/Gutenberg/Treatise on Thermodynamics/Treatise on Thermodynamics.aux)
 \openout1 = `"Treatise on Thermodynamics.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
  (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count268
-\scratchdimen=\dimen166
+\scratchcounter=\count271
+\scratchdimen=\dimen174
 \scratchbox=\box50
-\nofMPsegments=\count269
-\nofMParguments=\count270
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count271
-\MPscratchDim=\dimen167
-\MPnumerator=\count272
-\makeMPintoPDFobject=\count273
-\everyMPtoPDFconversion=\toks30
+\nofMPsegments=\count272
+\nofMParguments=\count273
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count274
+\MPscratchDim=\dimen175
+\MPnumerator=\count275
+\makeMPintoPDFobject=\count276
+\everyMPtoPDFconversion=\toks31
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-31.8738pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=47.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package chemgreek Info: Activating mapping `default' on line 16.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+Package chemgreek Info: Activating mapping `default' on line 17.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+) [1{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [1
+] [1
 
 ] [1
 
@@ -277,32 +327,32 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 Chapter 1.
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 106.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 107.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 106.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 107.
  [2
 
 ] [3] (/Users/petermai/Downloads/Gutenberg/Treatise on Thermodynamics/Treatise on Thermodynamics.aux) )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 7 (\begingroup)
+### semi simple group (level 1) entered at line 8 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 4698 strings out of 480608
- 80269 string characters out of 5903631
- 345973 words of memory out of 5000000
- 20531 multiletter control sequences out of 15000+600000
- 543110 words of font info for 64 fonts, out of 8000000 for 9000
+ 5194 strings out of 480608
+ 87321 string characters out of 5903631
+ 360327 words of memory out of 5000000
+ 21018 multiletter control sequences out of 15000+600000
+ 543799 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,11n,51p,1450b,1798s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb>
-Output written on "/Users/petermai/Downloads/Gutenberg/Treatise on Thermodynamics/Treatise on Thermodynamics.pdf" (10 pages, 169043 bytes).
+ 39i,11n,51p,1450b,1804s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on "/Users/petermai/Downloads/Gutenberg/Treatise on Thermodynamics/Treatise on Thermodynamics.pdf" (10 pages, 183776 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
+ 102 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
