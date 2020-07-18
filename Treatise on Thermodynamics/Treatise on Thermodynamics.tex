@@ -128,38 +128,36 @@ which is called the \textit{characteristic equation} of the substance. For gases
 \textbf{\S 9. Perfect Gases.}---The characteristic equation assumes its simplest form for the substances which we used in \S 4 for the definition of temperature. If the temperature be kept constant, then, according to the Boyle-Mariotte law, the product of the pressure and the specific volume remains constant for gases---
 \begin{equation}
     pb=T,
-    \label{eq9.1}
+    \label{eq1}
 \end{equation}
 where $T$, for a given gas, depends only on the temperature. \par 
 
 But if the pressure be kept constant, then, according to \S 3, the temperature is proportional to the difference between the present volume $v$ and the volume $v_0$ at 0\textdegree; \textit{i.e.}---
 \begin{equation}
     t=(v-v_0)P,
-    \label{eq9.2}
+    \label{eq2}
 \end{equation}
-where $P$ depends only on the pressure $p$. Equation \eqref{eq9.1} for $v_0$ becomes 
+where $P$ depends only on the pressure $p$. Equation \eqref{eq1} for $v_0$ becomes 
 \begin{equation}
     pv_0=T_0,
-    \label{eq9.3}
+    \label{eq3}
 \end{equation}
 where $T_0$ is the value of the function $T$, when $t=0$\textdegree C. \par 
 
-Finally, as has already been mentioned in \S 4, the expansion of all permanent gases on heating from 0\textdegree C. to 1\textdegree C. is the same fraction $\alpha$ (about $\frac{1}{273}$) of their volume at 0\textdegree (Gay-Lussac's law). Putting $t=1$, we have $v-v_0=\alpha v_0$, and equation \eqref{eq9.2} becomes 
+Finally, as has already been mentioned in \S 4, the expansion of all permanent gases on heating from 0\textdegree C. to 1\textdegree C. is the same fraction $\alpha$ (about $\frac{1}{273}$) of their volume at 0\textdegree (Gay-Lussac's law). Putting $t=1$, we have $v-v_0=\alpha v_0$, and equation \eqref{eq2} becomes 
 \begin{equation}
     1=\alpha v_0P. 
-    \label{eq9.4}
+    \label{eq4}
 \end{equation}
-By eliminating $P$, $v_0$, and $v$ from \eqref{eq9.1}, \eqref{eq9.2}, \eqref{eq9.3}, \eqref{eq9.4}, we obtain the temperature function of the gas---
+By eliminating $P$, $v_0$, and $v$ from \eqref{eq1}, \eqref{eq2}, \eqref{eq3}, \eqref{eq4}, we obtain the temperature function of the gas---
 $$T=T_0(1+\alpha t),$$
 which is seen to be linear function of $t$. The characteristic equation \eqref{eq9.1} becomes 
 $$p=\frac{T_0}{v}(1+\alpha t).$$ \par 
 
-\setcounter{equation}{0}
-
 \textbf{\S 10.} The form of this equation is considerably simplified by shifting the zero of temperature, arbitrarily fixed in \S 3, by $\frac{1}{\alpha}$ degrees, and calling the melting point of ice, not 0\textdegree C., but $\frac{1\degree}{\alpha}$ C. (\textit{i.e.} about 273\textdegree C.). For, putting $t+\frac{1}{\alpha}=\theta$ (absolute temperature), and the constant $\alpha T_0=C$, the characteristic equation becomes 
 \begin{equation}
     p=\frac{C}{v}\theta=\frac{CM}{V}\theta.
-    \label{eq10.5}
+    \label{eq5}
 \end{equation}
 This introduction of \textit{absolute} temperature is evidently tantamount to measuring temperature no longer, as in \S 3, by a change of volume, but by the volume itself. \par 
 
@@ -177,7 +175,35 @@ whence the corresponding values of $C$ in absolute units can be readily calculat
 
 All questions with regard to the behaviour of a substance when subjected to changes of temperature, volume, and pressure are completely answered by the characteristic equation of the substance. \par 
 
-\textbf{\S 12. Behaviour under Constant Pressure} (Isopiestic or Isobaric Changes).---\textit{Coefficient of expansion} is the name given to the ratio of the increase of volume for a rise of tempearture of 1\degree C. to the volume at 0\degree C. This increase for a perfect gas is, according to \eqref{eq10.5}, $\frac{CM}{p}$. The same equation \eqref{eq10.5} gives the volume of the gas at 0\degree C. as $\frac{CM}{p}\times 273$, hence the ratio of the two quantities, or the coefficient of expansion, is $\frac{1}{273}=\alpha$. \par 
+\textbf{\S 12. Behaviour under Constant Pressure} (Isopiestic or Isobaric Changes).---\textit{Coefficient of expansion} is the name given to the ratio of the increase of volume for a rise of tempearture of 1\degree C. to the volume at 0\degree C. This increase for a perfect gas is, according to \eqref{eq5}, $\frac{CM}{p}$. The same equation \eqref{eq5} gives the volume of the gas at 0\degree C. as $\frac{CM}{p}\times 273$, hence the ratio of the two quantities, or the coefficient of expansion, is $\frac{1}{273}=\alpha$. \par 
 
 \textbf{\S 13. Behaviour at Constant Volume} (Isochoric or Isopycnic Changes).---The \textit{pressure coefficient} is the ratio of the increase of pressure for a rise of temperature of 1\degree to the pressure at 0\degree C. For a perfect gas, this increase, according to equation \eqref{eq10.5}, is $\frac{CM}{V}$. The pressure at 0\degree C. is $\frac{CM}{V}\times 273$, whence the required ratio, \textit{i.e.} the pressure coefficient, is $\frac{1}{273}$, therefore equal to the coefficient of expansion $\alpha$. \par 
+
+\textbf{\S 14. Behaviour at Constant Temperature} (Isothermal Changes).---\textit{Coefficient of elasticity} is the ratio of an infinitely small increase of pressure to the resulting contraction of unit volume of the substance. In a perfect gas, according to equation \eqref{eq5}, the contraction of volume $V$, in consequence of an increase of pressure $dp$, is 
+\begin{equation*}
+    dV=\frac{CM\theta}{p^2}dp=\frac{V}{p}dp.
+\end{equation*}
+The contraction of unit volume is therefore 
+\begin{equation*}
+    -\frac{dV}{V}=\frac{dp}{p},
+\end{equation*}
+and the coefficient of elasticity of the gas is 
+\begin{equation*}
+    \frac{dp}{\frac{dp}{p}}=p,
+\end{equation*}
+that is, equal to the pressure. \par 
+
+The reciprocal of the coefficient of elasticity, \textit{i.e.} the ratio of an infinitely small contraction of unit volume to the corresponding increase of pressure, is called the \textit{coefficient of compressibility}. \par 
+
+\textbf{\S 15.} The three coefficients which characterize the behaviour of a substance subject to isopiestic, isopycnic, and isothermal changes are not independent of one another, but are in every case connected by a definite relation. The general characteristic equation, on being differentiated, gives 
+$$dp=\left(\frac{\partial p}{\partial \theta}\right)_\nu d\theta+\left(\frac{\partial p}{\partial\nu}\right)_\theta d\nu,$$
+where the suffixes indicate the variables to be kept constant while performing the differentiation. By putting $dp=0$ we impose the condition of an isopiestic processes:---
+\begin{equation}
+    \left(\frac{\partial\nu}{\partial\theta}\right)_p=-\frac{\left(\frac{\partial p}{\partial\theta}\right)_\nu}{\left(\frac{\partial p}{\partial\nu}\right)_\theta}.
+    \label{eq6}
+\end{equation} \par 
+
+For every state of a substance, one of the three coefficients, viz. of expansion, of pressure, or of compressibility, may therefore be calculated from the other two. \par 
+
+Take, for example, mercury at 0\degree C. and under atmospheric pressure. Its coefficient of expansion is (\S 12)
 \end{document}
