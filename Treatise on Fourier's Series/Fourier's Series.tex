@@ -552,9 +552,9 @@ Assume\footnote{See note on page \pageref{note2}} $z=R.T$ where $R$ is a functio
     RD_t^2T=c^2T\left(D_r^2R+\frac{1}{r}D_rR\right)
 \end{equation*}
 or 
-\begin{equation*}
+\begin{equation}
     \frac{1}{c^2T}\frac{d^2T}{dt^2}=\frac{1}{R}\left(\frac{d^2R}{dr^2}+\frac{1}{r}\frac{dR}{dr}\right). \label{eq11.5}
-\end{equation*}
+\end{equation}
 The second member of \eqref{eq11.5} does not involve $t$, therefore its equal the first member must be independent of $t$. The first member of \eqref{eq11.5} does not involve $r$, and consequently since it contains neither $t$ not $r$, it must be constant. Let it equal $-\mu^2$, where $\mu$ of course is an undetermined constant. \par 
 
 Then \eqref{eq11.5} breaks up into the two differential equations 
@@ -576,5 +576,30 @@ Assume, as in Art. 9, that $R$ can be expressed in terms of whole powers of $x$.
     \sum[n(n-1)a_nx^{n-2}+na_nx^{n-2}+a_nx^n]=0,
 \end{equation*}
 an equation which must be true no matter what the value of $x$. The coefficient of any given power of $x$, as $x^{k-2}$, must, then, vanish, and 
+$$k(k-1)a_k+ka_k+a_{k-2}=0$$ 
+or $$k^2a_k+a_{k-2}=0$$  
+whence we obtain 
+\begin{equation}
+    a_{k-2}=-k^2a_k  \label{eq11.9}
+\end{equation}
+as the only relation that need be satisfied by the coefficients in order that $R=\sum a_kx^k$ shall be a solution of \eqref{eq11.8}. \par 
+
+If 
+$$ k=0,\quad a_{k-2}=0,\quad a_{k-4}=0,\quad \& c.$$ 
+We can then begin with $k=0$ as our lowest subscript. \par 
+
+From \eqref{eq11.9} 
+$$a_k=-\frac{a_k-2}{k^2}.$$
+Then 
+\begin{align*}
+    a_2&=-\frac{a_0}{2^2} \\
+    a_4&=\frac{a_0}{2^2\cdot4^2} \\
+    a_6&=-\frac{a_0}{2^2\cdot4^2\cdot6^2},\, \text{\& c.}
+\end{align*}
+Hence 
+$$R=a_0\left[1-\frac{x^2}{x}+\frac{x^4}{2^2\cdot4^2}-\frac{x^6}{2^2\cdot4^2\cdot6^2}+\dots\right]$$
+where $a_0$ may be taken at pleasure, is a solution of \eqref{eq11.8}, provided the series is convergent. \par 
+
+
 
 \end{document}
