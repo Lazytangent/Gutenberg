@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.12)  21 JUL 2020 20:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.12)  22 JUL 2020 10:37
 entering extended mode
 **"f:/Gutenberg/King_Legends/Legends of Babylon and Egypt.tex"
 ("f:/Gutenberg/King_Legends/Legends of Babylon and Egypt.tex"
@@ -275,19 +275,19 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
  ("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [2] [3] [4] [5] [6] [7] [8] ("f:/Gutenberg\King_Legends\Legends of Babylon and Egypt.aux") ) 
+) [2] [3] [4] [5] [6] [7] [8] [9] ("f:/Gutenberg\King_Legends\Legends of Babylon and Egypt.aux") ) 
 Here is how much of TeX's memory you used:
- 3755 strings out of 480763
- 51872 string characters out of 2905979
+ 3757 strings out of 480763
+ 51889 string characters out of 2905979
  306241 words of memory out of 3000000
- 19736 multiletter control sequences out of 15000+200000
+ 19738 multiletter control sequences out of 15000+200000
  541544 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,8n,34p,2484b,150s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "f:/Gutenberg\King_Legends\Legends of Babylon and Egypt.pdf" (14 pages, 171888 bytes).
+Output written on "f:/Gutenberg\King_Legends\Legends of Babylon and Egypt.pdf" (15 pages, 175727 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
+ 87 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
