@@ -7,3 +7,4 @@
 \contentsline {section}{\numberline {2.4}Integro-Differential Equations}{19}%
 \contentsline {chapter}{\numberline {3}Lecture III\\Analysis Situs in Connection with\\Correpondences and Differential Equations}{22}%
 \contentsline {section}{\numberline {3.1}}{22}%
+\contentsline {section}{\numberline {3.2}}{29}%
