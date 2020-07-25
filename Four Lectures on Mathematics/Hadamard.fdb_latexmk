@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1595715768 "/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.tex" "/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.pdf" "Hadamard" 1595715769
+["pdflatex"] 1595715768 "/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.tex" "/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.pdf" "Hadamard" 1595715788
   "/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.aux" 1595715769 2661 9c13f56ba486dbafdc9879887f8cb03e ""
   "/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.tex" 1595715768 70334 6f2e345ab09c1b62d1eb91d67454043c ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -84,9 +84,9 @@
   "Hadamard.tex" 1595715768 70334 6f2e345ab09c1b62d1eb91d67454043c ""
   "Hadamard.toc" 1595715769 936 cd5c5113533bb76f907b22aef4c94d8d "pdflatex"
   (generated)
+  "Hadamard.aux"
   "Hadamard.toc"
   "Hadamard.log"
-  "Hadamard.aux"
   "/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.pdf"
   "Hadamard.pdf"
   "/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.log"
