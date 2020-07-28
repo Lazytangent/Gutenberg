@@ -1,12 +1,12 @@
 \contentsline {chapter}{Preface}{iii}%
-\contentsline {chapter}{\numberline {1}Lecture I\\ The Determination of Solutions of Linear Partial Differential Equations by Boundary Conditions}{1}%
-\contentsline {chapter}{\numberline {2}Lecture II\\Contemporary Reseaches in Differential Equations, Integral Equations, and Integro-Differential Equations}{11}%
-\contentsline {section}{\numberline {2.1}Partial Differential Equations and Integral Equations}{11}%
-\contentsline {section}{\numberline {2.2}Coming Back to Ordinary Differential Equations}{15}%
-\contentsline {section}{\numberline {2.3}Application to Molecular Physics}{17}%
-\contentsline {section}{\numberline {2.4}Integro-Differential Equations}{19}%
-\contentsline {chapter}{\numberline {3}Lecture III\\Analysis Situs in Connection with\\Correpondences and Differential Equations}{22}%
-\contentsline {section}{\numberline {3.1}}{22}%
-\contentsline {section}{\numberline {3.2}}{29}%
-\contentsline {chapter}{\numberline {4}Lecture IV\\Elementary Solutions of\\Partial Differential Equations And\\Green's Functions}{34}%
-\contentsline {section}{\numberline {4.1}Elementary Solutions}{34}%
+\contentsline {chapter}{\numberline {1}Lecture I}{1}%
+\contentsline {chapter}{\numberline {2}Lecture II}{10}%
+\contentsline {section}{\numberline {2.1}Partial Differential Equations and Integral Equations}{10}%
+\contentsline {section}{\numberline {2.2}Coming Back to Ordinary Differential Equations}{14}%
+\contentsline {section}{\numberline {2.3}Application to Molecular Physics}{16}%
+\contentsline {section}{\numberline {2.4}Integro-Differential Equations}{18}%
+\contentsline {chapter}{\numberline {3}Lecture III}{21}%
+\contentsline {section}{\numberline {3.1}}{21}%
+\contentsline {section}{\numberline {3.2}}{27}%
+\contentsline {chapter}{\numberline {4}Lecture IV}{33}%
+\contentsline {section}{\numberline {4.1}Elementary Solutions}{33}%

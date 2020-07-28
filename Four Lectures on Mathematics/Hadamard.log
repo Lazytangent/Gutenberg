@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  28 JUL 2020 12:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  28 JUL 2020 15:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -132,27 +132,24 @@ Package: amsthm 2017/10/31 v2.20.4
 \thm@postskip=\skip57
 \thm@headsep=\skip58
 \dth@everypar=\toks26
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/preprint/fullpage.sty
-Package: fullpage 1999/02/23 1.1 (PWD)
-\FP@margin=\skip59
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
-\f@nch@headwidth=\skip60
-\f@nch@O@elh=\skip61
-\f@nch@O@erh=\skip62
-\f@nch@O@olh=\skip63
-\f@nch@O@orh=\skip64
-\f@nch@O@elf=\skip65
-\f@nch@O@erf=\skip66
-\f@nch@O@olf=\skip67
-\f@nch@O@orf=\skip68
+\f@nch@headwidth=\skip59
+\f@nch@O@elh=\skip60
+\f@nch@O@erh=\skip61
+\f@nch@O@olh=\skip62
+\f@nch@O@orh=\skip63
+\f@nch@O@elf=\skip64
+\f@nch@O@erf=\skip65
+\f@nch@O@olf=\skip66
+\f@nch@O@orf=\skip67
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \ttl@box=\box48
-\beforetitleunit=\skip69
-\aftertitleunit=\skip70
+\beforetitleunit=\skip68
+\aftertitleunit=\skip69
 \ttl@plus=\dimen154
 \ttl@minus=\dimen155
 \ttl@toksa=\toks27
@@ -174,9 +171,28 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen159
 \Gin@req@width=\dimen160
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count192
+\Gm@cntv=\count193
+\c@Gm@tempcnt=\count194
+\Gm@bindingoffset=\dimen161
+\Gm@wd@mp=\dimen162
+\Gm@odd@mp=\dimen163
+\Gm@even@mp=\dimen164
+\Gm@layoutwidth=\dimen165
+\Gm@layoutheight=\dimen166
+\Gm@layouthoffset=\dimen167
+\Gm@layoutvoffset=\dimen168
+\Gm@dimlist=\toks28
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count192
+\l__kernel_color_stack_int=\count195
 \l__pdf_internal_box=\box49
 ) (/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.aux
 
@@ -185,135 +201,173 @@ LaTeX Warning: Label `eq2' multiply defined.
 
 LaTeX Warning: Label `eq3' multiply defined.
 
+
+LaTeX Warning: Label `eq1' multiply defined.
+
 )
 \openout1 = `Hadamard.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
  (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count193
-\scratchdimen=\dimen161
+\scratchcounter=\count196
+\scratchdimen=\dimen169
 \scratchbox=\box50
-\nofMPsegments=\count194
-\nofMParguments=\count195
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count196
-\MPscratchDim=\dimen162
-\MPnumerator=\count197
-\makeMPintoPDFobject=\count198
-\everyMPtoPDFconversion=\toks29
+\nofMPsegments=\count197
+\nofMParguments=\count198
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count199
+\MPscratchDim=\dimen170
+\MPnumerator=\count266
+\makeMPintoPDFobject=\count267
+\everyMPtoPDFconversion=\toks30
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-)) [1
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-31.8738pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=47.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+[1{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 38.
+]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 39.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 38.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 39.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [2] [1
 
 ] [1] [2] [3
 
-] (/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.toc [4
-
-])
+] (/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.toc)
 \tf@toc=\write3
 \openout3 = `Hadamard.toc'.
 
- [5]
+ [4
+
+]
 Chapter 1.
 [1
 
 
-] [2] [3] [4] [5] [6] [7] [8] [9] [10]
+] [2] [3] [4] [5] [6] [7] [8] [9]
 Chapter 2.
-[11
+[10
 
-] [12] [13] [14] [15]
-<Fig1.jpeg, id=90, 2396.955pt x 1674.255pt>
+] [11] [12] [13] [14]
+<Fig1.jpeg, id=85, 2396.955pt x 1674.255pt>
 File: Fig1.jpeg Graphic file (type jpg)
 <use Fig1.jpeg>
-Package pdftex.def Info: Fig1.jpeg  used on input line 306.
+Package pdftex.def Info: Fig1.jpeg  used on input line 307.
 (pdftex.def)             Requested size: 407.33067pt x 284.52756pt.
- [16 </Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Fig1.jpeg>] [17] [18] [19] [20] [21]
+ [15 </Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Fig1.jpeg>] [16] [17] [18] [19] [20]
 Chapter 3.
-[22
+[21
 
 ]
-<Fig2.png, id=113, 458.71375pt x 329.23pt>
+<Fig2.png, id=108, 458.71375pt x 329.23pt>
 File: Fig2.png Graphic file (type png)
 <use Fig2.png>
-Package pdftex.def Info: Fig2.png  used on input line 363.
+Package pdftex.def Info: Fig2.png  used on input line 364.
 (pdftex.def)             Requested size: 396.43896pt x 284.52756pt.
-<Fig3.png, id=115, 407.5225pt x 324.21124pt>
+<Fig3.png, id=110, 407.5225pt x 324.21124pt>
 File: Fig3.png Graphic file (type png)
 <use Fig3.png>
-Package pdftex.def Info: Fig3.png  used on input line 370.
+Package pdftex.def Info: Fig3.png  used on input line 371.
 (pdftex.def)             Requested size: 286.1157pt x 227.62204pt.
- [23 </Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Fig2.png>] [24 </Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Fig3.png>]
-<Fig4.jpeg, id=125, 2396.955pt x 1674.255pt>
+ [22 </Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Fig2.png>] [23 </Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Fig3.png>]
+<Fig4.jpeg, id=119, 2396.955pt x 1674.255pt>
 File: Fig4.jpeg Graphic file (type jpg)
 <use Fig4.jpeg>
-Package pdftex.def Info: Fig4.jpeg  used on input line 402.
+Package pdftex.def Info: Fig4.jpeg  used on input line 403.
 (pdftex.def)             Requested size: 325.84259pt x 227.62204pt.
-<Fig5.jpeg, id=126, 2396.955pt x 1674.255pt>
+<Fig5.jpeg, id=120, 2396.955pt x 1674.255pt>
 File: Fig5.jpeg Graphic file (type jpg)
 <use Fig5.jpeg>
-Package pdftex.def Info: Fig5.jpeg  used on input line 409.
+Package pdftex.def Info: Fig5.jpeg  used on input line 410.
 (pdftex.def)             Requested size: 325.84259pt x 227.62204pt.
- [25] [26 </Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Fig4.jpeg> </Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Fig5.jpeg>]
-<Fig6.jpeg, id=133, 2396.955pt x 1674.255pt>
+ [24] [25 </Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Fig4.jpeg> </Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Fig5.jpeg>]
+<Fig6.jpeg, id=128, 2396.955pt x 1674.255pt>
 File: Fig6.jpeg Graphic file (type jpg)
 <use Fig6.jpeg>
-Package pdftex.def Info: Fig6.jpeg  used on input line 423.
+Package pdftex.def Info: Fig6.jpeg  used on input line 424.
 (pdftex.def)             Requested size: 325.84259pt x 227.62204pt.
- [27 </Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Fig6.jpeg>] [28] [29] [30] [31] [32] [33]
+ [26 </Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Fig6.jpeg>] [27] [28] [29] [30] [31] [32]
 Chapter 4.
-[34
+[33
 
-] [35] (/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.aux)
+] [34] [35] [36] (/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 7 (\begingroup)
+### semi simple group (level 1) entered at line 8 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 3473 strings out of 480608
- 48104 string characters out of 5903631
- 293720 words of memory out of 5000000
- 19322 multiletter control sequences out of 15000+600000
- 541192 words of font info for 58 fonts, out of 8000000 for 9000
+ 3967 strings out of 480608
+ 55126 string characters out of 5903631
+ 310880 words of memory out of 5000000
+ 19808 multiletter control sequences out of 15000+600000
+ 541544 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,8n,45p,1873b,836s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.pdf" (43 pages, 2342001 bytes).
+ 37i,8n,45p,1883b,844s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.pdf" (43 pages, 2358644 bytes).
 PDF statistics:
- 222 PDF objects out of 1000 (max. 8388607)
- 150 compressed objects within 2 object streams
+ 226 PDF objects out of 1000 (max. 8388607)
+ 153 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

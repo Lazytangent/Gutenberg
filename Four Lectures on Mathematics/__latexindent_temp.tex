@@ -1,9 +1,8 @@
 \documentclass[12pt,oneside]{book}
 
 \usepackage{mathtools,amssymb,amsthm,amsmath}
-\usepackage{fancyhdr,setspace}
+\usepackage{fullpage,fancyhdr,setspace}
 \usepackage{titlesec,graphicx}
-\usepackage[margin=1in]{geometry}
 
 \onehalfspace 
 \setlength{\parskip}{12pt plus 1pt minus 2pt}
@@ -93,7 +92,7 @@ for reading the proofs. \par
 
 \mainmatter
 
-\chapter[Lecture I]{Lecture I\\
+\chapter{Lecture I\\
 The Determination of Solutions of Linear Partial Differential Equations by Boundary Conditions}
 \vspace*{-\baselineskip}
 In this lecture we shall limit ourselves to the onsideration of linear partial differential equations 
@@ -253,7 +252,7 @@ which do not govern any physical phenomena. The determination of solutions has b
 
 We see that from this non-analytic point of view the accordance between mathematical results and the suggestions of physics holds perfectly. This accordance must not surprise us, for, as we saw above, it corresponds to the fact that a problem which is possible only with analytic data can have no physical meaning. But it reamins worth all out attention. No other example better illustrates Poincar\'e's views\footnote{Lectures delivered at the first Internation Mathematical Congress, Zurich, 1897; reproduced in ``La Valeur de la Sciences.''} on the help which physics brings to analysis as expressed by him in such statements as the following, ``It is physics which gives us many important problems, which we would not have though of without it,'' and ``It is by the aid of physics that we can foresee the solutions.'' \par 
 
-\chapter[Lecture II]{Lecture II\\Contemporary Reseaches in Differential Equations, Integral Equations, and Integro-Differential Equations}
+\chapter{Lecture II\\Contemporary Reseaches in Differential Equations, Integral Equations, and Integro-Differential Equations}
 \section{Partial Differential Equations and Integral Equations}
 I reminded you at the end of the last lecture what indispensable help the physicist renders to the mathematician in furnishing him with problems. But that help is not always free from inconveniences, and the task of the mathematician is often a thankless one. Two cases generally occur: it may happen that the physical problem is easily soluble by a mere ``rule of three'' method, but if not, it is so extremely difficult that the mathematician despairs of solving it at all; and he will strive after that solution for two centuries and, when he obtains it, our interest in the particular physical problem may have been lost. Such seems to be the case with some problems concerning partial differential equations. Just after the discovery of infinitesimal calculus, physicists began by needing only very simple methods of integration, the problems in general reducing to elementary differential equations. But when high partial differential equations were introduced, the corresponding problems almost immmediately proved to be far above the level of those which contemporary mathematics could treat. \par 
 
@@ -353,7 +352,7 @@ The two types of integro-differential equations, which we just enumerated, are c
 
 In the second type described above, the accessory considitions are initial ones; and are to be treated in the manner, not of partial, but of ordinary differential equations--such methods as Picard's successive approximations being of great use in that case. \par 
 
-\chapter[Lecture III]{Lecture III\\Analysis Situs in Connection with\\Correpondences and Differential Equations}
+\chapter{Lecture III\\Analysis Situs in Connection with\\Correpondences and Differential Equations}
 \section{}
 We are going to speak of the role of analysis situs in our modern mathematics. This theory is also called the geometry of situation. It is the study of connections between different parts of geometrical configurations which are not altered by any continuous deformation. We suppose that we can let a system undergo any deformation whatever, however arbitrary it may be, only that it preserves continuity. For instace, a sphere and a cube are considered as one and the same thing from te point of view of the seometry of situation, because one can be transformed into the other without separating parts, or uniting parts which formerly were separated. The circle and the rectangle are identical from the same point of view. But the lateral surface of a cylinder and the surface of a rectangle are not identical, because, from the transformation of one into the other, we must make a cut along a generatrix. Also one is limited by two lines (the base circles) while the other is limited by one. The total surface of a cylinder is entirely closed; it is identical withe the surface of a sphere. There is no difficulty in the transformation. \par 
 
@@ -486,7 +485,7 @@ This question of coresopndences and Euler's theorem on polyhedra would give us t
 
 This example, as you see, exactly like the previous ones, teaches us that some fundamental features of mathematical solutions may remain hidden as long as we confine ourselves to the details; so that in order to discover them we must necessarily turn our attention towards the mode of synthesis of those details which introduce the point of view of analysis situs. \par 
 
-\chapter[Lecture IV]{Lecture IV\\Elementary Solutions of\\Partial Differential Equations And\\Green's Functions}
+\chapter{Lecture IV\\Elementary Solutions of\\Partial Differential Equations And\\Green's Functions}
 \section{Elementary Solutions}
 
 The expressions we are going to speak of are a necessary base of the treatment of every lineasr partial differentia lequation, such as those which arise in physical problems. The simplest of them is the quantity employed in all theories of the classical equation of Laplace: $\nabla^2u-0$; namely the elementary Newtonian potential $1/r$, where 
@@ -501,28 +500,4 @@ This isotropic cone is not introduced by chance, and not any surface could be su
 
 A second way of considering the wave is more in use among physicists. We have not in the first definition impled vibrations. If we now suppose that we have to deal with sinusoidal vibrations of the classical form, the motion is general and embraces all the space occupied by the air. Tracing the locus of all points of space in which the phase of the vibration is the same, we determine a certain wave surface (or surfaces). \par 
 
-It is clear that these two sense of the word ``waves'' are utterly different. In the first case, we have space divided into two regions where different things take place, which is not so in the second case. Certainly, physically speaking, we feel a certain analogy between them. But for the analyst, there seems to be a gap between the two points of view. \par 
-
-The gap is filled by a theorem of Delassus. Let us consider any linear partial differential equation of the second order, and suppose the $u$ is a solution which would be singular along all points of a certain surface, $\pi(x,y,z)=0$. By making some very simple hypotheses as to the nature of the singularity, Delassus found that this surface must be a characteristic as defined in our first lecture; that is, it must verfiy, if the given equation is $\nabla^2u=0$, the (non-linear) partial differential equation of the first order 
-$$\left(\frac{\partial\pi}{\partial x}\right)^2+\left(\frac{\partial\pi}{\partial y}\right)^2+\left(\frac{\partial\pi}{\partial z}\right)^2=0$$
-obtained by substituting for the partial derivatives of the second order of the unknown function $u$ in the given equation, the corresponding squares or products of derivatives of the first order of $\pi$ (the other terms of the given equation being considered as cancelled). This is the \textit{characteristic equation} corresponding to our problem. It is the same as the one found by Hugoniot in studying the problem from the first point of view. This third definition will show us the connection between the first two. In the first case, the wave corresponds to discontinuity, for the speeds and accelerations change suddenly at the wave surface: such a discontinuity is evidently a kind of singularity. In the vibratory motion the general equation contains the factor $\sin\mu\pi$ since $u=F\sin\mu\pi$, where $F$ is the parameter corresponding to the frequency, and $\pi$ is a function of $x,y,z$. This from of $u$ seems to show no singularity, for the sine is a holomorphic function. It is nevertheless what one may call ``practically singular.'' If we suppose that the absolute magnitude of $\mu$ is large, the function varies very rapidly from $+1$ to $-1$, it has derivatives which contain $\mu$ in factor, and these derivatives are therefore very large. It has a resemblance to discontinuous function because of the large slope. So that, in what may be called ``approximative'' analysis, it must be considered as analogous to certain discontinuous functions. From that point of view the three notions of waves are closely connected. \par 
-
-This view of Delassus is the one which will interest us now because in the case of the elemetary solution $1/r$ the characteristic cone is a surface of singularity. We see now in what direction we may look for the solution of the problem. We have to find what will be the characteristic cone or surface corresponding to it. Then we must construct a solution habing this as a singularity. The first question is answered by the general theory of partial differential equations of the first order. We must have a conic point at $(a,b,c)$. In general the characteristic cone is replaced by a \textit{characteristic conoid} which has curvilinear generatices which correspond to the physical ``rays.'' Secondly, we must build a solution which will have this for a surface of singularity. The first work of general character in this direction was that of Picard in 1891. He considered the case of two variables and treated more especially the equation 
-\begin{equation}
-    \tag{1'}
-    \label{eq1'}
-    \frac{\partial^2 u}{\partial x^2}+\frac{\partial^2u}{\partial y^2}=cu.
-\end{equation}
-Not every equation of the general type 
-\begin{equation*}
-    A\frac{\partial^2u}{\partial x^2}+B\frac{\partial^2u}{\partial x\partial y}+C\frac{\partial^2u}{\partial y^2}+2D\frac{\partial u}{\partial x}+2E\frac{\partial u}{\partial y}+Fu=0
-\end{equation*}
-can be reduced to that form. But in the elliptic case ($B^2-AC<0$) it can, by a proper change of independent variables, be reduced to the form 
-\begin{equation}
-    \frac{\partial^2u}{\partial x^2}+\frac{\partial^2u}{\partial y^2}+a\frac{\partial u}{\partial x}+b\frac{\partial u}{\partial y}+cu=0
-    \label{eq1}
-\end{equation}
-(in which the characteristic lines are the isotropic lines of the plane). Sommerfeld and Hedrick treated this more general form and showed for \eqref{eq1}, as Picard had done for the equation \eqref{eq1'}, that there exists an elementary solution, possessing all the essential properties of $\log 1/r$. It is 
-$$ P\log 1/r+Q,$$
-$P$ and $Q$ being regular functions of $x$ and $y$. $P$ has the value 1, $x=a,\, y=b$. In the hypervolic casae (real characteristices), the form to which the equation can be reduced is Laplace's form 
 \end{document}
