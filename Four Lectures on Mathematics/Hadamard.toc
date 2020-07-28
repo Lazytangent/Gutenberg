@@ -8,3 +8,5 @@
 \contentsline {chapter}{\numberline {3}Lecture III\\Analysis Situs in Connection with\\Correpondences and Differential Equations}{22}%
 \contentsline {section}{\numberline {3.1}}{22}%
 \contentsline {section}{\numberline {3.2}}{29}%
+\contentsline {chapter}{\numberline {4}Lecture IV\\Elementary Solutions of\\Partial Differential Equations And\\Green's Functions}{34}%
+\contentsline {section}{\numberline {4.1}Elementary Solutions}{34}%

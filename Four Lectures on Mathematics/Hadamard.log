@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  27 JUL 2020 18:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  28 JUL 2020 12:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -235,13 +235,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [1] [2] [3
 
-] (/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.toc)
+] (/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.toc [4
+
+])
 \tf@toc=\write3
 \openout3 = `Hadamard.toc'.
 
- [4
-
-]
+ [5]
 Chapter 1.
 [1
 
@@ -251,7 +251,7 @@ Chapter 2.
 [11
 
 ] [12] [13] [14] [15]
-<Fig1.jpeg, id=87, 2396.955pt x 1674.255pt>
+<Fig1.jpeg, id=90, 2396.955pt x 1674.255pt>
 File: Fig1.jpeg Graphic file (type jpg)
 <use Fig1.jpeg>
 Package pdftex.def Info: Fig1.jpeg  used on input line 306.
@@ -261,34 +261,38 @@ Chapter 3.
 [22
 
 ]
-<Fig2.png, id=110, 458.71375pt x 329.23pt>
+<Fig2.png, id=113, 458.71375pt x 329.23pt>
 File: Fig2.png Graphic file (type png)
 <use Fig2.png>
 Package pdftex.def Info: Fig2.png  used on input line 363.
 (pdftex.def)             Requested size: 396.43896pt x 284.52756pt.
-<Fig3.png, id=112, 407.5225pt x 324.21124pt>
+<Fig3.png, id=115, 407.5225pt x 324.21124pt>
 File: Fig3.png Graphic file (type png)
 <use Fig3.png>
 Package pdftex.def Info: Fig3.png  used on input line 370.
 (pdftex.def)             Requested size: 286.1157pt x 227.62204pt.
  [23 </Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Fig2.png>] [24 </Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Fig3.png>]
-<Fig4.jpeg, id=122, 2396.955pt x 1674.255pt>
+<Fig4.jpeg, id=125, 2396.955pt x 1674.255pt>
 File: Fig4.jpeg Graphic file (type jpg)
 <use Fig4.jpeg>
 Package pdftex.def Info: Fig4.jpeg  used on input line 402.
 (pdftex.def)             Requested size: 325.84259pt x 227.62204pt.
-<Fig5.jpeg, id=123, 2396.955pt x 1674.255pt>
+<Fig5.jpeg, id=126, 2396.955pt x 1674.255pt>
 File: Fig5.jpeg Graphic file (type jpg)
 <use Fig5.jpeg>
 Package pdftex.def Info: Fig5.jpeg  used on input line 409.
 (pdftex.def)             Requested size: 325.84259pt x 227.62204pt.
  [25] [26 </Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Fig4.jpeg> </Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Fig5.jpeg>]
-<Fig6.jpeg, id=130, 2396.955pt x 1674.255pt>
+<Fig6.jpeg, id=133, 2396.955pt x 1674.255pt>
 File: Fig6.jpeg Graphic file (type jpg)
 <use Fig6.jpeg>
 Package pdftex.def Info: Fig6.jpeg  used on input line 423.
 (pdftex.def)             Requested size: 325.84259pt x 227.62204pt.
- [27 </Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Fig6.jpeg>] [28] [29] [30] [31] [32] [33] (/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.aux)
+ [27 </Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Fig6.jpeg>] [28] [29] [30] [31] [32] [33]
+Chapter 4.
+[34
+
+] [35] (/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -306,10 +310,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  37i,8n,45p,1873b,836s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.pdf" (40 pages, 2335482 bytes).
+Output written on "/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.pdf" (43 pages, 2340594 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 143 compressed objects within 2 object streams
+ 222 PDF objects out of 1000 (max. 8388607)
+ 150 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
