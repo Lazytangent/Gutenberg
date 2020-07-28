@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1595957210 "/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.tex" "/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.pdf" "Hadamard" 1595957211
-  "/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.aux" 1595957211 3023 29dcc9d62b63b67d0f045fa8c30f3749 ""
-  "/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.tex" 1595957210 80970 fe3e891bb0e5171dcba9cae1927a01c6 ""
+["pdflatex"] 1595957639 "/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.tex" "/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.pdf" "Hadamard" 1595957640
+  "/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.aux" 1595957640 3023 29dcc9d62b63b67d0f045fa8c30f3749 ""
+  "/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.tex" 1595957639 82551 b447ef3b2de410c6dcf6991c858c5032 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -81,13 +81,13 @@
   "Fig4.jpeg" 1592580592 390158 6374f674799aeb97bdbaf6282283eb75 ""
   "Fig5.jpeg" 1592581386 301793 9ca0528e1c0605de550a518dc3a673dd ""
   "Fig6.jpeg" 1592582226 221306 278025973aeeeb58345ac1b26e4c2eee ""
-  "Hadamard.aux" 1595957211 3023 29dcc9d62b63b67d0f045fa8c30f3749 "pdflatex"
-  "Hadamard.tex" 1595957210 80970 fe3e891bb0e5171dcba9cae1927a01c6 ""
-  "Hadamard.toc" 1595957211 1140 8644df896dadd502286f3a389771aab8 "pdflatex"
+  "Hadamard.aux" 1595957640 3023 29dcc9d62b63b67d0f045fa8c30f3749 "pdflatex"
+  "Hadamard.tex" 1595957639 82551 b447ef3b2de410c6dcf6991c858c5032 ""
+  "Hadamard.toc" 1595957640 1140 8644df896dadd502286f3a389771aab8 "pdflatex"
   (generated)
   "Hadamard.aux"
-  "Hadamard.toc"
   "Hadamard.log"
+  "Hadamard.toc"
   "/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.log"
-  "/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.pdf"
   "Hadamard.pdf"
+  "/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.pdf"
