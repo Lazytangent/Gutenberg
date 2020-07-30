@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  30 JUL 2020 16:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  30 JUL 2020 17:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -134,14 +134,25 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks21
+\thm@bodyfont=\toks22
+\thm@headfont=\toks23
+\thm@notefont=\toks24
+\thm@headpunct=\toks25
+\thm@preskip=\skip65
+\thm@postskip=\skip66
+\thm@headsep=\skip67
+\dth@everypar=\toks26
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \col@sep=\dimen154
 \ar@mcellbox=\box48
 \extrarowheight=\dimen155
-\NC@list=\toks21
-\extratabsurround=\skip65
-\backup@length=\skip66
+\NC@list=\toks27
+\extratabsurround=\skip68
+\backup@length=\skip69
 \ar@cellbox=\box49
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
@@ -172,8 +183,8 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \page@free=\dimen160
 \premulticols=\dimen161
 \postmulticols=\dimen162
-\multicolsep=\skip67
-\multicolbaselineskip=\skip68
+\multicolsep=\skip70
+\multicolbaselineskip=\skip71
 \partial@page=\box51
 \last@line=\box52
 \maxbalancingoverflow=\dimen163
@@ -258,7 +269,7 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layoutheight=\dimen172
 \Gm@layouthoffset=\dimen173
 \Gm@layoutvoffset=\dimen174
-\Gm@dimlist=\toks22
+\Gm@dimlist=\toks28
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count272
@@ -287,12 +298,12 @@ LaTeX Font Info:    ... okay on input line 13.
 \scratchbox=\box97
 \nofMPsegments=\count274
 \nofMParguments=\count275
-\everyMPshowfont=\toks23
+\everyMPshowfont=\toks29
 \MPscratchCnt=\count276
 \MPscratchDim=\dimen176
 \MPnumerator=\count277
 \makeMPintoPDFobject=\count278
-\everyMPtoPDFconversion=\toks24
+\everyMPtoPDFconversion=\toks30
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -366,24 +377,24 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 149.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [5
 
-] [6] (/Users/petermai/Downloads/Gutenberg/A Short Account of the History of Mathematics/Mathematics.aux) )
+] [6] [7] (/Users/petermai/Downloads/Gutenberg/A Short Account of the History of Mathematics/Mathematics.aux) )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 8 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 4404 strings out of 480608
- 62519 string characters out of 5903631
- 317684 words of memory out of 5000000
- 20234 multiletter control sequences out of 15000+600000
+ 4473 strings out of 480608
+ 63367 string characters out of 5903631
+ 321941 words of memory out of 5000000
+ 20299 multiletter control sequences out of 15000+600000
  541843 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,7n,45p,1425b,769s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,7n,45p,1424b,773s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "/Users/petermai/Downloads/Gutenberg/A Short Account of the History of Mathematics/Mathematics.pdf" (13 pages, 138474 bytes).
+Output written on "/Users/petermai/Downloads/Gutenberg/A Short Account of the History of Mathematics/Mathematics.pdf" (14 pages, 141955 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+ 86 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
