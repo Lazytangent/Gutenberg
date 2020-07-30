@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  28 JUL 2020 15:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  30 JUL 2020 13:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -196,13 +196,7 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__pdf_internal_box=\box49
 ) (/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.aux
 
-LaTeX Warning: Label `eq2' multiply defined.
-
-
 LaTeX Warning: Label `eq3' multiply defined.
-
-
-LaTeX Warning: Label `eq1' multiply defined.
 
 )
 \openout1 = `Hadamard.aux'.
@@ -336,7 +330,11 @@ File: Fig5.jpeg Graphic file (type jpg)
 <use Fig5.jpeg>
 Package pdftex.def Info: Fig5.jpeg  used on input line 410.
 (pdftex.def)             Requested size: 325.84259pt x 227.62204pt.
- [24] [25 </Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Fig4.jpeg> </Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Fig5.jpeg>]
+
+
+LaTeX Warning: Reference `eq2' on page 24 undefined on input line 420.
+
+[24] [25 </Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Fig4.jpeg> </Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Fig5.jpeg>]
 <Fig6.jpeg, id=128, 2396.955pt x 1674.255pt>
 File: Fig6.jpeg Graphic file (type jpg)
 <use Fig6.jpeg>
@@ -346,7 +344,10 @@ Package pdftex.def Info: Fig6.jpeg  used on input line 424.
 Chapter 4.
 [33
 
-] [34] [35] [36] (/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.aux)
+] [34] [35] [36] [37] (/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.aux)
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -356,18 +357,18 @@ LaTeX Warning: There were multiply-defined labels.
 ### semi simple group (level 1) entered at line 8 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 3967 strings out of 480608
- 55126 string characters out of 5903631
- 310880 words of memory out of 5000000
- 19808 multiletter control sequences out of 15000+600000
+ 3971 strings out of 480608
+ 55156 string characters out of 5903631
+ 310914 words of memory out of 5000000
+ 19812 multiletter control sequences out of 15000+600000
  541544 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,8n,45p,1883b,844s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,8n,45p,1883b,845s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.pdf" (43 pages, 2358644 bytes).
+Output written on "/Users/petermai/Downloads/Gutenberg/Four Lectures on Mathematics/Hadamard.pdf" (44 pages, 2361253 bytes).
 PDF statistics:
- 226 PDF objects out of 1000 (max. 8388607)
- 153 compressed objects within 2 object streams
+ 229 PDF objects out of 1000 (max. 8388607)
+ 155 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
