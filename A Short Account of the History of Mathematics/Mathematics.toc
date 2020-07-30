@@ -2,4 +2,4 @@
 \contentsline {chapter}{Note}{iv}%
 \contentsline {chapter}{\numberline {1}Egyptian and Phoenician Mathematics}{1}%
 \contentsline {part}{I\hspace {1em}First Period\\Mathematics under Greek Influence}{3}%
-\contentsline {chapter}{\numberline {2}The Ionian and Pythagorean Schools\\Circ. 600 B.C.--400 B.C.}{5}%
+\contentsline {chapter}{\numberline {2}Ionian and Pythagorean Schools}{5}%
