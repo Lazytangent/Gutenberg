@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1596322885 "/Users/petermai/Downloads/Gutenberg/A Short Account of the History of Mathematics/Mathematics.tex" "/Users/petermai/Downloads/Gutenberg/A Short Account of the History of Mathematics/Mathematics.pdf" "Mathematics" 1596322886
-  "/Users/petermai/Downloads/Gutenberg/A Short Account of the History of Mathematics/Mathematics.aux" 1596322885 834 e5c64761275c630bfaf491a1d11deb8e ""
-  "/Users/petermai/Downloads/Gutenberg/A Short Account of the History of Mathematics/Mathematics.tex" 1596322885 20118 5d9ddb3499e671205af7b2fe6114e82b ""
+["pdflatex"] 1596487236 "/Users/petermai/Downloads/Gutenberg/A Short Account of the History of Mathematics/Mathematics.tex" "/Users/petermai/Downloads/Gutenberg/A Short Account of the History of Mathematics/Mathematics.pdf" "Mathematics" 1596487237
+  "/Users/petermai/Downloads/Gutenberg/A Short Account of the History of Mathematics/Mathematics.aux" 1596487236 834 e5c64761275c630bfaf491a1d11deb8e ""
+  "/Users/petermai/Downloads/Gutenberg/A Short Account of the History of Mathematics/Mathematics.tex" 1596487235 22883 929421a81f39e58eae05f3c1b2ec49bd ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -77,13 +77,13 @@
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1586288239 4811913 0be9a7e86c70a26e5e3042966bcd7097 ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1586288259 2432462 fd0fa20e9a3cb5f8169fd0ba1c955158 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "Mathematics.aux" 1596322885 834 e5c64761275c630bfaf491a1d11deb8e "pdflatex"
-  "Mathematics.tex" 1596322885 20118 5d9ddb3499e671205af7b2fe6114e82b ""
-  "Mathematics.toc" 1596322885 316 c325fbcabb01a872fbe2f2fb9d688bec "pdflatex"
+  "Mathematics.aux" 1596487236 834 e5c64761275c630bfaf491a1d11deb8e "pdflatex"
+  "Mathematics.tex" 1596487235 22883 929421a81f39e58eae05f3c1b2ec49bd ""
+  "Mathematics.toc" 1596487236 316 c325fbcabb01a872fbe2f2fb9d688bec "pdflatex"
   (generated)
-  "Mathematics.pdf"
-  "/Users/petermai/Downloads/Gutenberg/A Short Account of the History of Mathematics/Mathematics.log"
   "Mathematics.log"
-  "Mathematics.aux"
-  "Mathematics.toc"
   "/Users/petermai/Downloads/Gutenberg/A Short Account of the History of Mathematics/Mathematics.pdf"
+  "Mathematics.pdf"
+  "Mathematics.toc"
+  "/Users/petermai/Downloads/Gutenberg/A Short Account of the History of Mathematics/Mathematics.log"
+  "Mathematics.aux"
