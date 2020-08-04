@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  3 AUG 2020 15:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  4 AUG 2020 16:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -353,7 +353,15 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 ] [3] [4
 
-] (/Users/petermai/Downloads/Gutenberg/A Short Account of the History of Mathematics/Mathematics.toc)
+] (/Users/petermai/Downloads/Gutenberg/A Short Account of the History of Mathematics/Mathematics.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write3
 \openout3 = `Mathematics.toc'.
 
@@ -368,38 +376,31 @@ Chapter 1.
 
 ] [4]
 Chapter 2.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 149.
-(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 149.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [5
+[5
 
 ] [6] [7]
 Overfull \hbox (2.53334pt too wide) in paragraph at lines 186--186
 []\OT1/cmr/m/n/12 Among the pupils of Thales were \OT1/cmr/bx/n/12 Anax-i-man-der, Anaximenes, Mamer-cus, \OT1/cmr/m/n/12 and \OT1/cmr/bx/n/12 Mandry-
  []
 
-[8] [9] (/Users/petermai/Downloads/Gutenberg/A Short Account of the History of Mathematics/Mathematics.aux) )
+[8] [9] [10] (/Users/petermai/Downloads/Gutenberg/A Short Account of the History of Mathematics/Mathematics.aux) )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 8 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 4474 strings out of 480608
- 63383 string characters out of 5903631
+ 4476 strings out of 480608
+ 63409 string characters out of 5903631
  323941 words of memory out of 5000000
- 20300 multiletter control sequences out of 15000+600000
- 541843 words of font info for 60 fonts, out of 8000000 for 9000
+ 20302 multiletter control sequences out of 15000+600000
+ 542150 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,7n,45p,1424b,773s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "/Users/petermai/Downloads/Gutenberg/A Short Account of the History of Mathematics/Mathematics.pdf" (16 pages, 148678 bytes).
+Output written on "/Users/petermai/Downloads/Gutenberg/A Short Account of the History of Mathematics/Mathematics.pdf" (17 pages, 154355 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 95 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
