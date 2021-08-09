@@ -28,3 +28,6 @@
 [submodule "Beethovens_Letters__Vol_2"]
 	path = Beethovens_Letters__Vol_2
 	url = git@github.com:Lazytangent/Beethovens_Letters__Vol_2.git
+[submodule "Beethovens_Letters"]
+	path = Beethovens_Letters
+	url = git@github.com:Lazytangent/Beethovens_Letters.git
