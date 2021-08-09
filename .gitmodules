@@ -37,3 +37,6 @@
 [submodule "Diophantine_Analysis"]
 	path = Diophantine_Analysis
 	url = git@github.com:Lazytangent/Diophantine_Analysis.git
+[submodule "Essays_on_the_Theory_of_Numbers"]
+	path = Essays_on_the_Theory_of_Numbers
+	url = git@github.com:Lazytangent/Essays_on_the_Theory_of_Numbers.git
