@@ -19,3 +19,6 @@
 [submodule "Geometrical_Solutions_Derived_from_Mechanics"]
 	path = Geometrical_Solutions_Derived_from_Mechanics
 	url = git@github.com:Lazytangent/Geometrical_Solutions_Derived_from_Mechanics.git
+[submodule "more_music_theory_articles"]
+	path = more_music_theory_articles
+	url = git@github.com:Lazytangent/more_music_theory_articles.git
