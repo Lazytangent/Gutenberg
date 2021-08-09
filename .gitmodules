@@ -76,3 +76,6 @@
 [submodule "Orchestral_Conductor"]
 	path = Orchestral_Conductor
 	url = git@github.com:Lazytangent/Orchestral_Conductor.git
+[submodule "Theory_of_Finite_Order"]
+	path = Theory_of_Finite_Order
+	url = git@github.com:Lazytangent/Theory_of_Finite_Order.git
