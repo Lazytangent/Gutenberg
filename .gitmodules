@@ -40,3 +40,6 @@
 [submodule "Essays_on_the_Theory_of_Numbers"]
 	path = Essays_on_the_Theory_of_Numbers
 	url = git@github.com:Lazytangent/Essays_on_the_Theory_of_Numbers.git
+[submodule "Essentials_in_Conducting"]
+	path = Essentials_in_Conducting
+	url = git@github.com:Lazytangent/Essentials_in_Conducting.git
