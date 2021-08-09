@@ -25,3 +25,6 @@
 [submodule "Matter_Ether_and_Motion"]
 	path = Matter_Ether_and_Motion
 	url = git@github.com:Lazytangent/Matter_Ether_and_Motion.git
+[submodule "Beethovens_Letters__Vol_2"]
+	path = Beethovens_Letters__Vol_2
+	url = git@github.com:Lazytangent/Beethovens_Letters__Vol_2.git
