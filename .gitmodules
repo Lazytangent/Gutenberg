@@ -46,3 +46,6 @@
 [submodule "Fibonacci_Number_Sequence"]
 	path = Fibonacci_Number_Sequence
 	url = git@github.com:Lazytangent/Fibonacci_Number_Sequence.git
+[submodule "King__Legends"]
+	path = King__Legends
+	url = git@github.com:Lazytangent/King__Legends.git
