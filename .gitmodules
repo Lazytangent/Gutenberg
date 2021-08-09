@@ -34,3 +34,6 @@
 [submodule "Budge__Legends"]
 	path = Budge__Legends
 	url = git@github.com:Lazytangent/Budge__Legends.git
+[submodule "Diophantine_Analysis"]
+	path = Diophantine_Analysis
+	url = git@github.com:Lazytangent/Diophantine_Analysis.git
