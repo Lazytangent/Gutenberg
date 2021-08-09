@@ -43,3 +43,6 @@
 [submodule "Essentials_in_Conducting"]
 	path = Essentials_in_Conducting
 	url = git@github.com:Lazytangent/Essentials_in_Conducting.git
+[submodule "Fibonacci_Number_Sequence"]
+	path = Fibonacci_Number_Sequence
+	url = git@github.com:Lazytangent/Fibonacci_Number_Sequence.git
