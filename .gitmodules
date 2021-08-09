@@ -52,3 +52,6 @@
 [submodule "Lectures_on_Elementary_Mathematics"]
 	path = Lectures_on_Elementary_Mathematics
 	url = git@github.com:Lazytangent/Lectures_on_Elementary_Mathematics.git
+[submodule "Lessons_in_Music_Form"]
+	path = Lessons_in_Music_Form
+	url = git@github.com:Lazytangent/Lessons_in_Music_Form.git
