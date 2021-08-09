@@ -73,3 +73,6 @@
 [submodule "Piano_Tuning"]
 	path = Piano_Tuning
 	url = git@github.com:Lazytangent/Piano_Tuning.git
+[submodule "Orchestral_Conductor"]
+	path = Orchestral_Conductor
+	url = git@github.com:Lazytangent/Orchestral_Conductor.git
