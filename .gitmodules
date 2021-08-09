@@ -1,3 +1,6 @@
 [submodule "Four-Lectures-on-Mathematics"]
 	path = Four-Lectures-on-Mathematics
 	url = git@github.com:Lazytangent/Hadamard__Four_Lectures_on_Mathematics.git
+[submodule "A-First-Book-in-Algebra"]
+	path = A-First-Book-in-Algebra
+	url = git@github.com:Lazytangent/Boyden__First_Book_in_Algebra.git
