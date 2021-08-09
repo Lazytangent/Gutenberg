@@ -7,3 +7,6 @@
 [submodule "Short-Account-of-the-History-of-Mathematics"]
 	path = Short-Account-of-the-History-of-Mathematics
 	url = git@github.com:Lazytangent/Short-Account-of-the-History-of-Mathematics.git
+[submodule "Planck__Heat_Radiation"]
+	path = Planck__Heat_Radiation
+	url = git@github.com:Lazytangent/Planck__Heat_Radiation.git
