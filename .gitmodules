@@ -55,3 +55,6 @@
 [submodule "Lessons_in_Music_Form"]
 	path = Lessons_in_Music_Form
 	url = git@github.com:Lazytangent/Lessons_in_Music_Form.git
+[submodule "Machinery_of_the_Universe"]
+	path = Machinery_of_the_Universe
+	url = git@github.com:Lazytangent/Machinery_of_the_Universe.git
