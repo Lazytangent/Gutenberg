@@ -82,3 +82,6 @@
 [submodule "Theory_of_Numbers"]
 	path = Theory_of_Numbers
 	url = git@github.com:Lazytangent/Theory_of_Numbers.git
+[submodule "Treatise_on_the_Theory_of_Invariants"]
+	path = Treatise_on_the_Theory_of_Invariants
+	url = git@github.com:Lazytangent/Treatise_on_the_Theory_of_Invariants.git
