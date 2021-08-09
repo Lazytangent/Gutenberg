@@ -49,3 +49,6 @@
 [submodule "King__Legends"]
 	path = King__Legends
 	url = git@github.com:Lazytangent/King__Legends.git
+[submodule "Lectures_on_Elementary_Mathematics"]
+	path = Lectures_on_Elementary_Mathematics
+	url = git@github.com:Lazytangent/Lectures_on_Elementary_Mathematics.git
