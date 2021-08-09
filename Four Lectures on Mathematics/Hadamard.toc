@@ -1,12 +1,12 @@
-\contentsline {chapter}{Preface}{iii}%
-\contentsline {chapter}{\numberline {1}Lecture I}{1}%
-\contentsline {chapter}{\numberline {2}Lecture II}{10}%
-\contentsline {section}{\numberline {2.1}Partial Differential Equations and Integral Equations}{10}%
-\contentsline {section}{\numberline {2.2}Coming Back to Ordinary Differential Equations}{14}%
-\contentsline {section}{\numberline {2.3}Application to Molecular Physics}{16}%
-\contentsline {section}{\numberline {2.4}Integro-Differential Equations}{18}%
-\contentsline {chapter}{\numberline {3}Lecture III}{21}%
-\contentsline {section}{\numberline {3.1}}{21}%
-\contentsline {section}{\numberline {3.2}}{27}%
-\contentsline {chapter}{\numberline {4}Lecture IV}{33}%
-\contentsline {section}{\numberline {4.1}Elementary Solutions}{33}%
+\contentsline {chapter}{Preface}{iii}{}%
+\contentsline {chapter}{\numberline {1}Lecture I}{1}{}%
+\contentsline {chapter}{\numberline {2}Lecture II}{11}{}%
+\contentsline {section}{\numberline {2.1}Partial Differential Equations and Integral Equations}{11}{}%
+\contentsline {section}{\numberline {2.2}Coming Back to Ordinary Differential Equations}{15}{}%
+\contentsline {section}{\numberline {2.3}Application to Molecular Physics}{17}{}%
+\contentsline {section}{\numberline {2.4}Integro-Differential Equations}{19}{}%
+\contentsline {chapter}{\numberline {3}Lecture III}{22}{}%
+\contentsline {section}{\numberline {3.1}}{22}{}%
+\contentsline {section}{\numberline {3.2}}{28}{}%
+\contentsline {chapter}{\numberline {4}Lecture IV}{34}{}%
+\contentsline {section}{\numberline {4.1}Elementary Solutions}{34}{}%
