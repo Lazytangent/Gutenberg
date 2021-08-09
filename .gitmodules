@@ -79,3 +79,6 @@
 [submodule "Theory_of_Finite_Order"]
 	path = Theory_of_Finite_Order
 	url = git@github.com:Lazytangent/Theory_of_Finite_Order.git
+[submodule "Theory_of_Numbers"]
+	path = Theory_of_Numbers
+	url = git@github.com:Lazytangent/Theory_of_Numbers.git
