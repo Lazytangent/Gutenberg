@@ -16,3 +16,6 @@
 [submodule "Treatise_on_Thermodynamics"]
 	path = Treatise_on_Thermodynamics
 	url = git@github.com:Lazytangent/Treatise_on_Thermodynamics.git
+[submodule "Geometrical_Solutions_Derived_from_Mechanics"]
+	path = Geometrical_Solutions_Derived_from_Mechanics
+	url = git@github.com:Lazytangent/Geometrical_Solutions_Derived_from_Mechanics.git
