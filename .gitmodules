@@ -58,3 +58,6 @@
 [submodule "Machinery_of_the_Universe"]
 	path = Machinery_of_the_Universe
 	url = git@github.com:Lazytangent/Machinery_of_the_Universe.git
+[submodule "Music_Notation_and_Terminology"]
+	path = Music_Notation_and_Terminology
+	url = git@github.com:Lazytangent/Music_Notation_and_Terminology.git
