@@ -67,3 +67,6 @@
 [submodule "Myths_and_Legends_of_Rome_and_Greece"]
 	path = Myths_and_Legends_of_Rome_and_Greece
 	url = git@github.com:Lazytangent/Myths_and_Legends_of_Rome_and_Greece.git
+[submodule "On_Conducting"]
+	path = On_Conducting
+	url = git@github.com:Lazytangent/On_Conducting.git
