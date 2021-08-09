@@ -13,3 +13,6 @@
 [submodule "Treatise_on_Fouriers_Series"]
 	path = Treatise_on_Fouriers_Series
 	url = git@github.com:Lazytangent/Treatise_on_Fouriers_Series.git
+[submodule "Treatise_on_Thermodynamics"]
+	path = Treatise_on_Thermodynamics
+	url = git@github.com:Lazytangent/Treatise_on_Thermodynamics.git

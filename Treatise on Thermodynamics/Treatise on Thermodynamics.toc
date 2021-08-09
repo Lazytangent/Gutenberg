@@ -1,4 +1,0 @@
-\contentsline {chapter}{Translator's Notice}{i}%
-\contentsline {chapter}{Preface}{ii}%
-\contentsline {part}{I\hspace {1em}Fundamental Facts and Definitions}{1}%
-\contentsline {chapter}{\numberline {1}Temperature}{2}%
