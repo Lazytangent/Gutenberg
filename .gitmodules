@@ -22,3 +22,6 @@
 [submodule "more_music_theory_articles"]
 	path = more_music_theory_articles
 	url = git@github.com:Lazytangent/more_music_theory_articles.git
+[submodule "Matter_Ether_and_Motion"]
+	path = Matter_Ether_and_Motion
+	url = git@github.com:Lazytangent/Matter_Ether_and_Motion.git
