@@ -10,3 +10,6 @@
 [submodule "Planck__Heat_Radiation"]
 	path = Planck__Heat_Radiation
 	url = git@github.com:Lazytangent/Planck__Heat_Radiation.git
+[submodule "Treatise_on_Fouriers_Series"]
+	path = Treatise_on_Fouriers_Series
+	url = git@github.com:Lazytangent/Treatise_on_Fouriers_Series.git
