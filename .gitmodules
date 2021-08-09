@@ -31,3 +31,6 @@
 [submodule "Beethovens_Letters"]
 	path = Beethovens_Letters
 	url = git@github.com:Lazytangent/Beethovens_Letters.git
+[submodule "Budge__Legends"]
+	path = Budge__Legends
+	url = git@github.com:Lazytangent/Budge__Legends.git
