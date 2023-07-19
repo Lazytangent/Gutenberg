@@ -85,3 +85,6 @@
 [submodule "Treatise_on_the_Theory_of_Invariants"]
 	path = Treatise_on_the_Theory_of_Invariants
 	url = git@github.com:Lazytangent/Treatise_on_the_Theory_of_Invariants.git
+[submodule "Modest-Proposal__Swift"]
+	path = Modest-Proposal__Swift
+	url = git@github.com:Lazytangent/Modest-Proposal__Swift.git
